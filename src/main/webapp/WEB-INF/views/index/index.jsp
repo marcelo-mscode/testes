@@ -9,7 +9,7 @@
 <%-- <link rel="shortcut icon" href="<c:url value="resources/images/iconS.ico" />" />
  --%>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
-	<title>SysLocc</title>
+	<title>Supremacia | BR</title>
 	<%-- <link rel="stylesheet" href="<c:url value="resources/css/bootstrap.css" />" />
 	<link rel="stylesheet" href="<c:url value="resources/css/syslocc.css"  />" />
 	<link rel="stylesheet" href="<c:url value="resources/css/jquery-ui-1.8.18.custom.css" />" />
@@ -18,7 +18,7 @@
 	
 </head>
 <body>
-	Supremacia
+	Supremacia BR
 	
 	<form action="hieraquia" method="post">
 	
