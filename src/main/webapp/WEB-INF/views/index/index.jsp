@@ -19,6 +19,8 @@
 </head>
 <body>
 	Supremacia BR
+	<br>
+	Comando de macho !
 	
 	<form action="hieraquia" method="post">
 	
