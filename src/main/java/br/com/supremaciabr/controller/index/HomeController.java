@@ -7,7 +7,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class HomeController {
 	
-	@RequestMapping("/")
+	@RequestMapping("/index")
 	public ModelAndView index(){
 		ModelAndView MV = new ModelAndView("index/index");
 		System.out.println("Carregando Produtos.");
@@ -16,9 +16,14 @@ public class HomeController {
 	
 	
 	@RequestMapping("/hieraquia")
-	public ModelAndView hieraquia(String teste){
+	public ModelAndView hieraquia(){
 		ModelAndView MV = new ModelAndView("treinamento/treinamento");
-		System.out.println("Treinamento: "+teste);
+		return MV;
+	}
+
+	@RequestMapping("/regimeinterno")
+	public ModelAndView regimeinterno(){
+		ModelAndView MV = new ModelAndView("regime/regimeinterno");
 		return MV;
 	}
 	
