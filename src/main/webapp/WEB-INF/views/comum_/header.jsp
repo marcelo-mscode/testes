@@ -82,7 +82,7 @@
 				</div>
 				<div class="col-xs-10 text-right menu-1">
 					<ul>
-						<li id="pagIndex" ><a href="http://localhost:8080/supremaciabr/">Home</a></li>
+						<li id="pagIndex" ><a href="https://supremaciabr.herokuapp.com/">Home</a></li>
 						<li><a href="#">Sobre o comando</a></li>
 						<li class="pagRegime"><a href="regimeinterno">Regime interno</a></li>
 						<!-- <li class="has-dropdown">
