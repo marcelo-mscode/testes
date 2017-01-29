@@ -18,11 +18,15 @@
 				<div class="col-md-12 col-md-offset-0 text-center">
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<h2>comando</h2>
-							<h1>x Supremacia br x</h1>
-							<h2>GTA V Online</h2>
-							<p>
-								<a href="#" class="btn btn-primary btn-lg">Saiba mais</a> 
+							
+							<div class=" box-opacity">
+								<h2>comando</h2>
+								<h1>x Supremacia br x</h1>
+								<h2>GTA V Online</h2>
+								<p>
+									<a href="#" class="btn btn-primary btn-lg">Saiba mais</a> 
+							</div>
+						
 						</div>
 					</div>
 				</div>
@@ -36,31 +40,35 @@
 				<div class="col-md-4 col-sm-4">
 					<div class="feature-center animate-box" data-animate-effect="fadeIn">
 						<span class="icon">
-							<i class="icon-eye"></i>
+							<!-- <i class="icon-eye"></i> -->
+							<img alt="" src="resources/images/guerra.png">
 						</span>
-						<h3>Retina Ready</h3>
-						<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. </p>
-						<p><a href="#" class="btn btn-primary btn-outline">Learn More</a></p>
+						<h3>FOCO</h3>
+						<p>O foco do comando é <b>GUERRA</b> na sessão. Treinamos para guerra,
+						conversamos sobre guerra e estamos online para guerra. Gosta de Guerra ? Então seja bem-vindo.</p>
+						<!-- <p><a href="#" class="btn btn-primary btn-outline">Learn More</a></p> -->
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-4">
 					<div class="feature-center animate-box" data-animate-effect="fadeIn">
 						<span class="icon">
-							<i class="icon-command"></i>
+							<img alt="" src="resources/images/diversao.png">
 						</span>
-						<h3>Fully Responsive</h3>
-						<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. </p>
-						<p><a href="#" class="btn btn-primary btn-outline">Learn More</a></p>
+						<h3>DIVERSÃO</h3>
+						<p>Foi em meio as tretas e brigas contra os players que fizemos grandes amigos.
+						Embora gostemos das guerras na sessão, tudo fazemos para nos divertir. Temos rivais e não inimigos.</p>
+						<!-- <p><a href="#" class="btn btn-primary btn-outline">Learn More</a></p> -->
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-4">
 					<div class="feature-center animate-box" data-animate-effect="fadeIn">
 						<span class="icon">
-							<i class="icon-power"></i>
+							<img alt="" src="resources/images/128x128.png">
 						</span>
-						<h3>Web Starter</h3>
-						<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. </p>
-						<p><a href="#" class="btn btn-primary btn-outline">Learn More</a></p>
+						<h3>Ajuda</h3>
+						<p>Nossa cultura é de ajuda mutua entre os membros, ajudando com as muambas, com o MC,
+						com os trabalhamos de Magnata, e com a evolução de cada jogador.</p>
+						<!-- <p><a href="#" class="btn btn-primary btn-outline">Learn More</a></p> -->
 					</div>
 				</div>
 			</div>
@@ -71,26 +79,26 @@
 		<div class="gtco-container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
-					<h2>Watch Our Videos</h2>
-					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+					<h2>VIDEOS DO NOSSO CANAL NO YOUTUBE</h2>
+					<p>Algumas vezes nossos membros gravam vídeos nas sessões e postam no nosso canal no youtube, veja alguns abaixo, aproveite e se inscreva.</p>
 				</div>
 			</div>
 			
 			<div class="row">
 				<div class="col-md-4">
-					<div class="gtco-video gtco-video-sm gtco-bg" style="background-image: url(resources/images/img_1.jpg); ">
+					<div class="gtco-video gtco-video-sm gtco-bg" style="background-image: url(resources/images/img_1.png); ">
 						<a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo"><i class="icon-video"></i></a>
 						<div class="overlay"></div>
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="gtco-video gtco-video-sm gtco-bg" style="background-image: url(resources/images/img_1.jpg); ">
+					<div class="gtco-video gtco-video-sm gtco-bg" style="background-image: url(resources/images/img_1.png); ">
 						<a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo"><i class="icon-video"></i></a>
 						<div class="overlay"></div>
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="gtco-video gtco-video-sm gtco-bg" style="background-image: url(resources/images/img_1.jpg); ">
+					<div class="gtco-video gtco-video-sm gtco-bg" style="background-image: url(resources/images/img_1.png); ">
 						<a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo"><i class="icon-video"></i></a>
 						<div class="overlay"></div>
 					</div>
@@ -99,50 +107,74 @@
 		</div>
 	</div>
 
-	<div id="gtco-counter" class="gtco-bg gtco-cover gtco-counter" style="background-image:url(resources/images/img_bg_2.jpg);">
+	<div id="gtco-counter" class="gtco-bg gtco-cover gtco-counter" style="background-image:url(resources/images/img_bg_2.png);">
 		<div class="overlay"></div>
 		<div class="gtco-container">
 			<div class="row">
 				<div class="display-t">
 					<div class="display-tc">
-						<div class="col-md-3 col-sm-6 animate-box">
+						<div class="col-md-2 col-sm-6 animate-box">
 							<div class="feature-center">
 								<span class="icon">
 									<i class="icon-eye"></i>
 								</span>
 
-								<span class="counter js-counter" data-from="0" data-to="22070" data-speed="5000" data-refresh-interval="50">1</span>
-								<span class="counter-label">Soma de horas jogadas de todos os membros</span>
+								<span class="counter js-counter" data-from="0" data-to="68" data-speed="5000" data-refresh-interval="50">1</span>
+								<span class="counter-label">Total de Membros</span>
 
 							</div>
 						</div>
-						<div class="col-md-3 col-sm-6 animate-box">
+						<div class="col-md-2 col-sm-6 animate-box">
 							<div class="feature-center">
 								<span class="icon">
 									<i class="icon-anchor"></i>
 								</span>
 
-								<span class="counter js-counter" data-from="0" data-to="97" data-speed="5000" data-refresh-interval="50">1</span>
-								<span class="counter-label">Happy Clients</span>
+								<span class="counter js-counter" data-from="0" data-to="1" data-speed="5000" data-refresh-interval="50">1</span>
+								<span class="counter-label">Lideres</span>
 							</div>
 						</div>
-						<div class="col-md-3 col-sm-6 animate-box">
+						<div class="col-md-2 col-sm-6 animate-box">
 							<div class="feature-center">
 								<span class="icon">
 									<i class="icon-briefcase"></i>
 								</span>
-								<span class="counter js-counter" data-from="0" data-to="402" data-speed="5000" data-refresh-interval="50">1</span>
-								<span class="counter-label">Projects Done</span>
+								<span class="counter js-counter" data-from="0" data-to="6" data-speed="5000" data-refresh-interval="50">1</span>
+								<span class="counter-label">Comissários</span>
 							</div>
 						</div>
-						<div class="col-md-3 col-sm-6 animate-box">
+						<div class="col-md-2 col-sm-6 animate-box">
 							<div class="feature-center">
 								<span class="icon">
 									<i class="icon-clock"></i>
 								</span>
 
-								<span class="counter js-counter" data-from="0" data-to="212023" data-speed="5000" data-refresh-interval="50">1</span>
-								<span class="counter-label">Hours Spent</span>
+								<span class="counter js-counter" data-from="0" data-to="7" data-speed="5000" data-refresh-interval="50">1</span>
+								<span class="counter-label">Tenentes</span>
+
+							</div>
+						</div>
+
+						<div class="col-md-2 col-sm-6 animate-box">
+							<div class="feature-center">
+								<span class="icon">
+									<i class="icon-clock"></i>
+								</span>
+
+								<span class="counter js-counter" data-from="0" data-to="45" data-speed="5000" data-refresh-interval="50">1</span>
+								<span class="counter-label">Representantes</span>
+
+							</div>
+						</div>	
+
+						<div class="col-md-2 col-sm-6 animate-box">
+							<div class="feature-center">
+								<span class="icon">
+									<i class="icon-clock"></i>
+								</span>
+
+								<span class="counter js-counter" data-from="0" data-to="9" data-speed="5000" data-refresh-interval="50">1</span>
+								<span class="counter-label">Capangas</span>
 
 							</div>
 						</div>
@@ -156,7 +188,7 @@
 		<div class="gtco-container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
-					<h2>Testimonial</h2>
+					<h2>HIERARQUIA</h2>
 				</div>
 			</div>
 			<div class="row animate-box">
@@ -166,33 +198,60 @@
 					<div class="item">
 						<div class="testimony-slide active text-center">
 							<figure>
-								<img src="resources/images/person_1.jpg" alt="user">
+								<img src="resources/images/comissario.png" alt="user">
 							</figure>
-							<span>Jean Doe, via <a href="#" class="twitter">Twitter</a></span>
+							<span>líder</span>
 							<blockquote>
-								<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+								<p>O fundador do Comando e manda-chuva geral. O seu poder é absoluto.</p>
+							</blockquote>
+						</div>
+					</div>
+
+					<div class="item">
+						<div class="testimony-slide active text-center">
+							<figure>
+								<img src="resources/images/comissario.png" alt="user">
+							</figure>
+							<span>Comissários no comando</a></span>
+							<blockquote>
+								<p>Os membros mais confiáveis do Comando. Eles têm o poder de administrar todos os aspectos do Comando em nome do Líder,
+								   incluindo a habilidade de promover membros internamente e convidar novos membros.</p>
 							</blockquote>
 						</div>
 					</div>
 					<div class="item">
 						<div class="testimony-slide active text-center">
 							<figure>
-								<img src="resources/images/person_2.jpg" alt="user">
+								<img src="resources/images/comissario.png" alt="user">
 							</figure>
-							<span>John Doe, via <a href="#" class="twitter">Twitter</a></span>
+							<span>tenentes</span>
 							<blockquote>
-								<p>&ldquo;Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+								<p>Membros respeitados, com privilégios específicos para manter o Comando na linha.</p>
 							</blockquote>
 						</div>
 					</div>
 					<div class="item">
 						<div class="testimony-slide active text-center">
 							<figure>
-								<img src="resources/images/person_3.jpg" alt="user">
+								<img src="resources/images/comissario.png" alt="user">
 							</figure>
-							<span>John Doe, via <a href="#" class="twitter">Twitter</a></span>
+							<span>representantes</span>
 							<blockquote>
-								<p>&ldquo;Far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+								<p>Membros que provaram a sua dedicação ao Comando e foram recompensados com permissões básicas
+								   para ajudar no recrutamento.</p>
+							</blockquote>
+						</div>
+					</div>
+
+					<div class="item">
+						<div class="testimony-slide active text-center">
+							<figure>
+								<img src="resources/images/comissario.png" alt="user">
+							</figure>
+							<span>capangas</span>
+							<blockquote>
+								<p>Quem põe a mão na massa pelo Comando. Eles podem não ter, ou não querer, nenhum poder administrativo,
+								   mas eles costumam ser o principal elemento que torna o seu Comando temível.</p>
 							</blockquote>
 						</div>
 					</div>
@@ -206,8 +265,8 @@
 			
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
-					<h2>What We Offer</h2>
-					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+					<h2>O QUE FAZEMOS NO DIA-A-DIA</h2>
+					<p>Embora o foco do nosso comando sejam as guerras na sessões, na ausência delas fazemos também vários outros serviços.</p>
 				</div>
 			</div>
 
@@ -215,10 +274,10 @@
 				
 				<div class="gtco-tabs">
 					<ul class="gtco-tab-nav">
-						<li class="active"><a href="#" data-tab="1"><span class="icon visible-xs"><i class="icon-command"></i></span><span class="hidden-xs">Web Design</span></a></li>
-						<li><a href="#" data-tab="2"><span class="icon visible-xs"><i class="icon-bar-graph"></i></span><span class="hidden-xs">Online Marketing</span></a></li>
-						<li><a href="#" data-tab="3"><span class="icon visible-xs"><i class="icon-bag"></i></span><span class="hidden-xs">E-Commerce</span></a></li>
-						<li><a href="#" data-tab="4"><span class="icon visible-xs"><i class="icon-box"></i></span><span class="hidden-xs">Logo &amp; Branding</span></a></li>
+						<li class="active"><a href="#" data-tab="1"><span class="icon visible-xs"><i class="icon-command"></i></span><span class="hidden-xs">Guerras</span></a></li>
+						<li><a href="#" data-tab="2"><span class="icon visible-xs"><i class="icon-bar-graph"></i></span><span class="hidden-xs">Heists</span></a></li>
+						<li><a href="#" data-tab="3"><span class="icon visible-xs"><i class="icon-bag"></i></span><span class="hidden-xs">Muambas</span></a></li>
+						<li><a href="#" data-tab="4"><span class="icon visible-xs"><i class="icon-box"></i></span><span class="hidden-xs">Moto Clube / Exportação</span></a></li>
 					</ul>
 
 					<!-- Tabs -->
@@ -226,25 +285,29 @@
 
 						<div class="gtco-tab-content tab-content active" data-tab-content="1">
 							<div class="col-md-6">
-								<div class="gtco-video gtco-bg" style="background-image: url(resources/images/img_1.jpg); ">
+								<div class="gtco-video gtco-bg" style="background-image: url(resources/images/img_1.png); ">
 									<a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo"><i class="icon-video"></i></a>
 									<div class="overlay"></div>
 								</div>
 							</div>
 							<div class="col-md-6">
-								<h2>Web Design</h2>
-								<p>Paragraph placeat quis fugiat provident veritatis quia iure a debitis adipisci dignissimos consectetur magni quas eius nobis reprehenderit soluta eligendi quo reiciendis fugit? Veritatis tenetur odio delectus quibusdam officiis est.</p>
+								<h2>Guerras</h2>
+								<p>É o foco do comando, ponto. É o objetivo, o alvo, a meta ou seja la qual o termo,
+								   queremos guerra na sessão.</p>
 
-								<p>Ullam dolorum iure dolore dicta fuga ipsa velit veritatis molestias totam fugiat soluta accusantium omnis quod similique placeat at. Dolorum ducimus libero fuga molestiae asperiores obcaecati corporis sint illo facilis.</p>
+								<p>Paramos Heists, muambas, serviços ou tunangem de carros, tudo para entrar na guerra ou ajudar algum membro
+								que esteja precisando de ajuda contra outros players na sessão.</p>
 
 								<div class="row">
 									<div class="col-md-6">
-										<h2 class="uppercase">Keep it simple</h2>
-										<p>Ullam dolorum iure dolore dicta fuga ipsa velit veritatis</p>
+										<h2 class="uppercase">Não procuramos a guerra...</h2>
+										<p>a guerra nos encontra. Um tiro no carro será o motivo, um tiro em um membro do comando será o motivo, 
+										atirou em um, terá que atirar em todos.
+										</p>
 									</div>
 									<div class="col-md-6">
-										<h2 class="uppercase">Less is more</h2>
-										<p>Ullam dolorum iure dolore dicta fuga ipsa velit veritatis</p>
+										<h2 class="uppercase">Zuaram tua muamba ?</h2>
+										<p>Pegue os nomes, anotem o comando, vamos atrás. Não guardamos rancor, guardamos nomes e comandos.</p>
 									</div>
 								</div>
 
@@ -253,25 +316,28 @@
 
 						<div class="gtco-tab-content tab-content" data-tab-content="2">
 							<div class="col-md-6 col-md-push-6">
-								<div class="gtco-video gtco-bg" style="background-image: url(resources/images/img_1.jpg); ">
+								<div class="gtco-video gtco-bg" style="background-image: url(resources/images/img_1.png); ">
 									<a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo"><i class="icon-video"></i></a>
 									<div class="overlay"></div>
 								</div>
 							</div>
 							<div class="col-md-6 col-md-pull-6">
-								<h2>Online Marketing</h2>
-								<p>Paragraph placeat quis fugiat provident veritatis quia iure a debitis adipisci dignissimos consectetur magni quas eius nobis reprehenderit soluta eligendi quo reiciendis fugit? Veritatis tenetur odio delectus quibusdam officiis est.</p>
+								<h2>Heists</h2>
+								<p>Estamos sempre fazendo as Heists no jogo. Sempre quando algum membro precisa de dinheiro, ou precisa completar todas as heists
+								para desbloquear carros ou armas, estamos ajudando.
+								 </p>
 
-								<p>Ullam dolorum iure dolore dicta fuga ipsa velit veritatis molestias totam fugiat soluta accusantium omnis quod similique placeat at. Dolorum ducimus libero fuga molestiae asperiores obcaecati corporis sint illo facilis.</p>
+								<p>Uma coisa é certa, tudo nesse jogo é caro! Carros tunados são caros, apartamentos são caros, as armas e as balas custam caro,
+								mas as heists estão ai pra isso, juntar grana.</p>
 
 								<div class="row">
 									<div class="col-md-6">
-										<h2 class="uppercase">Ready to use</h2>
-										<p>Ullam dolorum iure dolore dicta fuga ipsa velit veritatis</p>
+										<h2 class="uppercase">Pacific</h2>
+										<p>Para quem não está abastado de grana, essa é uma boa opção de serviço.</p>
 									</div>
 									<div class="col-md-6">
-										<h2 class="uppercase">100% Satisfaction</h2>
-										<p>Ullam dolorum iure dolore dicta fuga ipsa velit veritatis</p>
+										<h2 class="uppercase">Grana para quem precisa</h2>
+										<p>Sempre fazemos uma divisão justa para quem está precisando de dinheiro.</p>
 									</div>
 								</div>
 
@@ -280,7 +346,7 @@
 
 						<div class="gtco-tab-content tab-content" data-tab-content="3">
 							<div class="col-md-6 col-md-push-6">
-								<div class="gtco-video gtco-bg" style="background-image: url(resources/images/img_1.jpg); ">
+								<div class="gtco-video gtco-bg" style="background-image: url(resources/images/img_1.png); ">
 									<a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo"><i class="icon-video"></i></a>
 									<div class="overlay"></div>
 								</div>
@@ -291,8 +357,8 @@
 										<i class="icon-check"></i>
 									</span>
 									<div class="feature-copy">
-										<h3>Retina Ready</h3>
-										<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+										<h3>Uma forma de juntar dinheiro</h3>
+										<p>Não é uma das mais rápidas, mas já é um começo.</p>
 									</div>
 								</div>
 
@@ -301,8 +367,8 @@
 										<i class="icon-check"></i>
 									</span>
 									<div class="feature-copy">
-										<h3>Fully Responsive</h3>
-										<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+										<h3>aceite conselhos</h3>
+										<p>Escute quem já faz muamba a muito tempo, as dicas podem te ajudar a ganhar mais em menos tempo.</p>
 									</div>
 								</div>
 
@@ -311,8 +377,8 @@
 										<i class="icon-check"></i>
 									</span>
 									<div class="feature-copy">
-										<h3>Ready To Use</h3>
-										<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+										<h3>vender em equipe é melhor</h3>
+										<p>Peça ajuda para vender ou coletar muamba.</p>
 									</div>
 								</div>
 								
@@ -327,19 +393,20 @@
 								</div>
 							</div>
 							<div class="col-md-6">
-								<h2>Logo &amp; Branding</h2>
-								<p>Paragraph placeat quis fugiat provident veritatis quia iure a debitis adipisci dignissimos consectetur magni quas eius nobis reprehenderit soluta eligendi quo reiciendis fugit? Veritatis tenetur odio delectus quibusdam officiis est.</p>
+								<h2>Moto Clube e Exportação de Carros</h2>
+								<p>O serviço de <b>MC</b> ( moto clube ) é outra forma de juntar dinheiro, porém odiado por alguns. Odiado pela simples motivo de ficarem te ligando
+								   a todo momento falando que falta algum elemento para sua fábrica. O cara enche o saco mesmo ! Mas pode gerar uma grana extra enquanto você faz outro serviço.</p>
 
-								<p>Ullam dolorum iure dolore dicta fuga ipsa velit veritatis molestias totam fugiat soluta accusantium omnis quod similique placeat at. Dolorum ducimus libero fuga molestiae asperiores obcaecati corporis sint illo facilis.</p>
+								<p>O serviço de <b>Exportação de carros</b> é o que está gerando um dinheiro mais rápido na sessão pública. Dependendo do carro e de sua habilidade de piloto, um carro pode te gerar $100 mil em alguns minutos.</p>
 
 								<div class="row">
 									<div class="col-md-6">
-										<h2 class="uppercase">Pixel perfect</h2>
-										<p>Ullam dolorum iure dolore dicta fuga ipsa velit veritatis</p>
+										<h2 class="uppercase">Precisa vender ou coletar ?</h2>
+										<p>Sempre que precisar vender ou coletar algo, chame alguém disponível.</p>
 									</div>
 									<div class="col-md-6">
-										<h2 class="uppercase">User Interface Expert</h2>
-										<p>Ullam dolorum iure dolore dicta fuga ipsa velit veritatis</p>
+										<h2 class="uppercase">Junte e venda em equipe</h2>
+										<p>Geralemente exportar mais de um carro pode gerar uma receita maior.</p>
 									</div>
 								</div>
 							</div>

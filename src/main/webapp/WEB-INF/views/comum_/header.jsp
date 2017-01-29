@@ -56,13 +56,25 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
+	<style type="text/css">
+		
+		.gtco-nav a{color: #000 !important;}
+		.gtco-cover .overlay {border-bottom: 1px solid gray;background: rgba(0, 0, 0, 0.3);}
+		.box-opacity {background-color: rgba(0, 0, 0, 0.8);padding: 40px;border-radius: 3px;}
+		.gtco-nav {border-bottom: 1px solid #ccc;padding: 15px 0;}
+		#gtco-counter .counter-label { color: rgba(255, 255, 255, 1.0); }
+	
+	</style>
+
+
+
 	</head>
 	<body>
 		
 	<div class="gtco-loader"></div>
 	
 	<div id="page">
-	<nav class="gtco-nav" role="navigation">
+	<nav class="gtco-nav" role="navigation" style="border-bottom: 1px solid #ccc;">
 		<div class="gtco-container">
 			<div class="row">
 				<div class="col-xs-2">
@@ -70,7 +82,7 @@
 				</div>
 				<div class="col-xs-10 text-right menu-1">
 					<ul>
-						<li id="pagIndex" ><a href="index">Home</a></li>
+						<li id="pagIndex" ><a href="http://localhost:8080/supremaciabr/">Home</a></li>
 						<li><a href="#">Sobre o comando</a></li>
 						<li class="pagRegime"><a href="regimeinterno">Regime interno</a></li>
 						<!-- <li class="has-dropdown">

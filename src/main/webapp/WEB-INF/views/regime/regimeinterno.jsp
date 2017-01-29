@@ -23,7 +23,7 @@
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<h1>REGIME INTERNO<br>| SMBR |</h1>
+							<h1>REGIME INTERNO<br> SMBR</h1>
 							
 						</div>
 					</div>
@@ -80,8 +80,11 @@
 							<i class="icon-check"></i>
 						</span>
 						<div class="feature-copy">
-							<h3>Regra</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
+							<h3>4 - Recrutamento</h3>
+							<p>Qualquer membro pode indicar players para o recrutamento, 
+							   peça para o player enviar o pedido para entrar no comando via
+							<b>Social Clube</b>, avisar de quem foi a indicação e algum tenente ou comissário
+							   entrará em contato. Só serão aceitos players acima de 16 anos.</p>
 						</div>
 					</div>
 
