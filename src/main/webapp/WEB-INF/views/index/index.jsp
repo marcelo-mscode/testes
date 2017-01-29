@@ -113,27 +113,19 @@
 			<div class="row">
 				<div class="display-t">
 					<div class="display-tc">
-						<div class="col-md-2 col-sm-6 animate-box">
-							<div class="feature-center">
-								<span class="icon">
-									<i class="icon-eye"></i>
-								</span>
-
-								<span class="counter js-counter" data-from="0" data-to="68" data-speed="5000" data-refresh-interval="50">1</span>
-								<span class="counter-label">Total de Membros</span>
-
-							</div>
-						</div>
+						
 						<div class="col-md-2 col-sm-6 animate-box">
 							<div class="feature-center">
 								<span class="icon">
 									<i class="icon-anchor"></i>
 								</span>
 
-								<span class="counter js-counter" data-from="0" data-to="1" data-speed="5000" data-refresh-interval="50">1</span>
+								<span class="counter js-counter" data-from="0" data-to="1" data-speed="50" data-refresh-interval="50">1</span>
 								<span class="counter-label">Lideres</span>
 							</div>
 						</div>
+						
+						
 						<div class="col-md-2 col-sm-6 animate-box">
 							<div class="feature-center">
 								<span class="icon">
@@ -178,6 +170,21 @@
 
 							</div>
 						</div>
+						
+						<div class="col-md-2 col-sm-6 animate-box">
+							<div class="feature-center">
+								<span class="icon">
+									<i class="icon-eye"></i>
+								</span>
+
+								<span class="counter js-counter" data-from="0" data-to="68" data-speed="5000" data-refresh-interval="50">1</span>
+								<span class="counter-label">Total de Membros</span>
+
+							</div>
+						</div>
+						
+						
+						
 					</div>
 				</div>
 			</div>
