@@ -72,7 +72,7 @@
 	</head>
 	<body>
 		
-	<div class="gtco-loader"></div>
+	<!-- <div class="gtco-loader"></div>
 	
 	<div id="page">
 	<nav class="gtco-nav" role="navigation" style="border-bottom: 1px solid #ccc;">
@@ -86,7 +86,7 @@
 						<li id="pagIndex" ><a href="https://supremaciabr.herokuapp.com/">Home</a></li>
 						<li><a href="#">Sobre o comando</a></li>
 						<li class="pagRegime"><a href="regimeinterno">Regime interno</a></li>
-						<!-- <li class="has-dropdown">
+						<li class="has-dropdown">
 							<a href="services.html">Serviços</a>
 							<ul class="dropdown">
 								<li><a href="#">Web Design</a></li>
@@ -94,15 +94,15 @@
 								<li><a href="#">Branding</a></li>
 								<li><a href="#">API</a></li>
 							</ul>
-						</li> -->
+						</li>
 						<li class="has-dropdown">
 							<a href="#">Calendário</a>
-							<!-- <ul class="dropdown">
+							<ul class="dropdown">
 								<li><a href="#">HTML5</a></li>
 								<li><a href="#">CSS3</a></li>
 								<li><a href="#">Sass</a></li>
 								<li><a href="#">jQuery</a></li>
-							</ul> -->
+							</ul>
 						</li>
 						<li><a href="#">Recrutamento</a></li>
 					</ul>
@@ -110,4 +110,4 @@
 			</div>
 			
 		</div>
-	</nav>
+	</nav> -->
