@@ -10,7 +10,6 @@ public class HomeController {
 	@RequestMapping("/")
 	public ModelAndView index(){
 		ModelAndView MV = new ModelAndView("index/index");
-		System.out.println("Carregando Produtos.");
 		return MV;
 	}
 	

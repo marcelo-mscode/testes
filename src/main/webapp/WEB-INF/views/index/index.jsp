@@ -79,27 +79,30 @@
 		<div class="gtco-container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
-					<h2>VIDEOS DO NOSSO CANAL NO YOUTUBE</h2>
+					<h2>ÚLTIMOS VIDEOS DO NOSSO CANAL NO YOUTUBE</h2>
 					<p>Algumas vezes nossos membros gravam vídeos nas sessões e postam no nosso canal no youtube, veja alguns abaixo, aproveite e se inscreva.</p>
 				</div>
 			</div>
 			
 			<div class="row">
 				<div class="col-md-4">
-					<div class="gtco-video gtco-video-sm gtco-bg" style="background-image: url(resources/images/img_1.png); ">
-						<a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo"><i class="icon-video"></i></a>
+				<span>Mata-mata em equipe#1<br>29/01/2017</span>
+					<div class="gtco-video gtco-video-sm gtco-bg" style="background-image: url(resources/images/video1.png); ">
+						<a href="https://www.youtube.com/watch?v=BbWSewT8urk" class="popup-vimeo"><i class="icon-video"></i></a>
 						<div class="overlay"></div>
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="gtco-video gtco-video-sm gtco-bg" style="background-image: url(resources/images/img_1.png); ">
-						<a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo"><i class="icon-video"></i></a>
+				<span>Mata-mata em equipe#1<br>29/01/2017</span>
+					<div class="gtco-video gtco-video-sm gtco-bg" style="background-image: url(resources/images/video1.png); ">
+						<a href="https://www.youtube.com/watch?v=BbWSewT8urk" class="popup-vimeo"><i class="icon-video"></i></a>
 						<div class="overlay"></div>
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="gtco-video gtco-video-sm gtco-bg" style="background-image: url(resources/images/img_1.png); ">
-						<a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo"><i class="icon-video"></i></a>
+				<span>Mata-mata em equipe#1<br>29/01/2017</span>
+					<div class="gtco-video gtco-video-sm gtco-bg" style="background-image: url(resources/images/video1.png); ">
+						<a href="https://www.youtube.com/watch?v=BbWSewT8urk" class="popup-vimeo"><i class="icon-video"></i></a>
 						<div class="overlay"></div>
 					</div>
 				</div>
