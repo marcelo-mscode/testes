@@ -63,6 +63,7 @@
 		.box-opacity {background-color: rgba(0, 0, 0, 0.8);padding: 40px;border-radius: 3px;}
 		.gtco-nav {border-bottom: 1px solid #ccc;padding: 15px 0;}
 		#gtco-counter .counter-label { color: rgba(255, 255, 255, 1.0); }
+		.gtco-heading {margin-bottom: 4em;}
 	
 	</style>
 

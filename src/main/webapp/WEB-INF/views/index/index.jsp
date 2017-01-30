@@ -80,27 +80,28 @@
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
 					<h2>ÚLTIMOS VIDEOS DO NOSSO CANAL NO YOUTUBE</h2>
-					<p>Algumas vezes nossos membros gravam vídeos nas sessões e postam no nosso canal no youtube, veja alguns abaixo, aproveite e se inscreva.</p>
+					<p>Algumas vezes nossos membros gravam vídeos nas sessões e postam no nosso canal no youtube, veja alguns abaixo, aproveite e inscreva-se.</p>
+					<p><a href="https://www.youtube.com/channel/UCWIw5scPuM9G89C9_ZOx4Qg" class="btn btn-primary btn-outline" target="_blank">CANAL xSUPREMACIABRx NO YOUTUBE</a></p>
 				</div>
 			</div>
 			
 			<div class="row">
 				<div class="col-md-4">
-				<span>Mata-mata em equipe#1<br>29/01/2017</span>
+				<span>Mata-mata em equipe#1<br>"Tira a P$#@ do capacete SOAP CHORA"<br>29/01/2017</span>
 					<div class="gtco-video gtco-video-sm gtco-bg" style="background-image: url(resources/images/video1.png); ">
 						<a href="https://www.youtube.com/watch?v=BbWSewT8urk" class="popup-vimeo"><i class="icon-video"></i></a>
 						<div class="overlay"></div>
 					</div>
 				</div>
 				<div class="col-md-4">
-				<span>Mata-mata em equipe#1<br>29/01/2017</span>
-					<div class="gtco-video gtco-video-sm gtco-bg" style="background-image: url(resources/images/video1.png); ">
-						<a href="https://www.youtube.com/watch?v=BbWSewT8urk" class="popup-vimeo"><i class="icon-video"></i></a>
+				<span>Mata-mata em equipe#2<br>"CHORA TECLADO, CAMPOSBR LADRÃO"<br>29/01/2017</span>
+					<div class="gtco-video gtco-video-sm gtco-bg" style="background-image: url(resources/images/video2.png); ">
+						<a href="https://www.youtube.com/watch?v=fm1XcWhWwlw" class="popup-vimeo"><i class="icon-video"></i></a>
 						<div class="overlay"></div>
 					</div>
 				</div>
 				<div class="col-md-4">
-				<span>Mata-mata em equipe#1<br>29/01/2017</span>
+				<span>Mata-mata em equipe#<br>"VIDEO EM EDIÇÃO AGUARDEM"<br>00/00/2017</span>
 					<div class="gtco-video gtco-video-sm gtco-bg" style="background-image: url(resources/images/video1.png); ">
 						<a href="https://www.youtube.com/watch?v=BbWSewT8urk" class="popup-vimeo"><i class="icon-video"></i></a>
 						<div class="overlay"></div>
