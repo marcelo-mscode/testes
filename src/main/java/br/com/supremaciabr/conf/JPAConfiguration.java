@@ -38,8 +38,8 @@ public class JPAConfiguration {
 	 @Autowired private Environment environment;
 
 	  @Bean
-	   public LocalContainerEntityManagerFactoryBean entityManagerFactory() {
-		  DriverManagerDataSource dataSource = new DriverManagerDataSource();
+	   public LocalContainerEntityManagerFactoryBean entityManagerFactory(DataSource dataSource) {
+		 // DriverManagerDataSource dataSource = new DriverManagerDataSource();
 	      LocalContainerEntityManagerFactoryBean em = new LocalContainerEntityManagerFactoryBean();
 	      em.setDataSource(dataSource);
 	      em.setPackagesToScan(new String[] { "br.com.supremaciabr.model" });
