@@ -16,6 +16,7 @@ import javax.sql.DataSource;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Profile;
+import org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.JpaVendorAdapter;
@@ -93,6 +94,10 @@ public class JPAConfiguration {
 	return transactionManager;
 	}
 	
+	@Bean
+	   public PersistenceExceptionTranslationPostProcessor exceptionTranslation(){
+	      return new PersistenceExceptionTranslationPostProcessor();
+	   }
 	
 	
 	
