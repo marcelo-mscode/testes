@@ -130,8 +130,8 @@
 
 			<dependency>
 				<groupId>org.hibernate</groupId>
-				<artifactId>hibernate-entitymanager</artifactId>	
-				<version>4.3.0.Final</version>		
+			<artifactId>hibernate-entitymanager</artifactId>
+			<version>4.3.0.Final</version>
 			</dependency>
 			
 			<dependency>
