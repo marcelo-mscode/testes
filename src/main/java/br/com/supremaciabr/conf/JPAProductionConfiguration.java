@@ -12,7 +12,7 @@ import org.springframework.core.env.Environment;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 
 
-@Profile("prod")
+@Profile("dev")
 public class JPAProductionConfiguration {
 	
 	   @Autowired
