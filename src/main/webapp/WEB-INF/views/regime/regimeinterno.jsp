@@ -144,7 +144,7 @@
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
 							<h1>regra para vida</h1>
-							<h2>"O bem-estar na vida obtém-se com o aperfeiçoamento da convivência entre os homens."</a></h2>
+							<h2>"Não começe uma batalha se não estiver disposto a entrar numa guerra."</a></h2>
 						</div>
 					</div>
 				</div>
