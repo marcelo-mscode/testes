@@ -24,7 +24,7 @@
 								<h1>x Supremacia br x</h1>
 								<h2>GTA V Online</h2>
 								<p>
-									<a href="#" class="btn btn-primary btn-lg">Saiba mais</a> 
+									<a href="#comeco" class="btn btn-primary btn-lg">Saiba mais</a> 
 							</div>
 						
 						</div>
@@ -34,6 +34,7 @@
 		</div>
 	</header>
 	
+	<a name="comeco"></a>
 	<div id="gtco-features">
 		<div class="gtco-container">
 			<div class="row">
