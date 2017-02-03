@@ -42,7 +42,7 @@ public class JPAConfiguration {
 	 
 	      JpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
 	      em.setJpaVendorAdapter(vendorAdapter);
-	      em.setJpaProperties(additionalProperties());
+	//      em.setJpaProperties(additionalProperties());
 	 
 	      return em;
 	   }
@@ -70,10 +70,10 @@ public class JPAConfiguration {
 	      return new PersistenceExceptionTranslationPostProcessor();
 	   }
 	 
-	   Properties additionalProperties() {
+	   /*Properties additionalProperties() {
 	      Properties properties = new Properties();
 	      properties.setProperty("hibernate.hbm2ddl.auto", "update");
 	      properties.setProperty("hibernate.show_sql", "true");
 	      return properties;
-	   }
+	   }*/
 }
