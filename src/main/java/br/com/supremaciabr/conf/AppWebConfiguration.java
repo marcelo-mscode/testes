@@ -12,7 +12,7 @@ import br.com.supremaciabr.daos.VideoDAO;
 
 
 @EnableWebMvc
-@ComponentScan(basePackageClasses={HomeController.class, VideoDAO.class})
+@ComponentScan(basePackageClasses={HomeController.class,HomeController.class,VideoDAO.class})
 public class AppWebConfiguration extends WebMvcConfigurerAdapter{
 	
 	

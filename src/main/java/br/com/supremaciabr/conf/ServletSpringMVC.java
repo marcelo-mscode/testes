@@ -15,7 +15,7 @@ public class ServletSpringMVC extends AbstractAnnotationConfigDispatcherServletI
 	@Override
 	protected Class<?>[] getRootConfigClasses() {
 		return new Class[] { AppWebConfiguration.class, JPAConfiguration.class,
-				JPAProductionConfiguration.class, HomeController.class,VideoDAO.class};
+				JPAProductionConfiguration.class};
 	}
 
 	@Override
@@ -30,13 +30,13 @@ public class ServletSpringMVC extends AbstractAnnotationConfigDispatcherServletI
 		return new String []{"/"};
 	}
 	
-	@Override
+	/*@Override
 	public void onStartup(ServletContext servletContext)
 			throws ServletException {
 		super.onStartup(servletContext);
 		servletContext.addListener(RequestContextListener.class);
 		servletContext.setInitParameter("spring.profiles.active" , "prod");
 
-	}
+	}*/
 
 }

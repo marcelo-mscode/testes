@@ -11,7 +11,6 @@ import org.springframework.context.annotation.Profile;
 import org.springframework.core.env.Environment;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 
-
 @Profile("prod")
 public class JPAProductionConfiguration {
 	
