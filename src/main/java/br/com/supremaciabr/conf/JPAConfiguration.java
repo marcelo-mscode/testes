@@ -26,6 +26,9 @@ import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
 import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
+
+
+
 @EnableTransactionManagement
 public class JPAConfiguration {
 
@@ -47,7 +50,7 @@ public class JPAConfiguration {
 	
 		
 	@Bean
-	@Profile("prod")
+	@Profile("dev")
 	public DataSource dataSource(){
 	DriverManagerDataSource dataSource =
 	new DriverManagerDataSource();
