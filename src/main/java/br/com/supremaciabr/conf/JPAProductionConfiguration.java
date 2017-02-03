@@ -12,9 +12,10 @@ import org.springframework.core.env.Environment;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 
 
+@Profile("prod")
 public class JPAProductionConfiguration {
 	
-	 /*  @Autowired
+	   @Autowired
 	   private Environment environment;
 	
 	   @Bean	   
@@ -26,5 +27,5 @@ public class JPAProductionConfiguration {
 		  dataSource.setUsername(dbUrl.getUserInfo().split(":")[0]);
 		  dataSource.setPassword(dbUrl.getUserInfo().split(":")[1]);
 	      return dataSource;
-	   }	*/
+	   }	
 }

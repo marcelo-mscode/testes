@@ -8,13 +8,15 @@ public class ServletSpringMVC extends AbstractAnnotationConfigDispatcherServletI
 
 	@Override
 	protected Class<?>[] getRootConfigClasses() {
-		// TODO Auto-generated method stub
-		return null;
+		return new Class[] { AppWebConfiguration.class, JPAConfiguration.class,
+				JPAProductionConfiguration.class, HomeController.class,VideoDAO.class};
 	}
 
 	@Override
 	protected Class<?>[] getServletConfigClasses() {
-		return new Class[]{AppWebConfiguration.class, HomeController.class,VideoDAO.class,JPAConfiguration.class};
+		// Tem que colocar aqui para ser adicionado no carregamento da servlet
+		// base
+		return new Class[] {};
 	}
 
 	@Override
