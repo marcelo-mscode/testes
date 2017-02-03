@@ -32,7 +32,9 @@
 	<link href='https://fonts.googleapis.com/css?family=Raleway:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
 	
 	<!-- Animate.css -->
-	<link rel="stylesheet" href='<c:url value="resources/css/animate.css"/>' >
+	<%-- <link rel="stylesheet" href='<c:url value="resources/css/animate.css"/>' > --%>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	
 	
 	<!-- Icomoon Icon Fonts-->
 	<link rel="stylesheet" href='<c:url value="resources/css/icomoon.css"/>'>
@@ -64,7 +66,9 @@
 		.gtco-nav {border-bottom: 1px solid #ccc;padding: 15px 0;}
 		#gtco-counter .counter-label { color: rgba(255, 255, 255, 1.0); }
 		.gtco-heading {margin-bottom: 4em;}
-	
+		.btn-primary {background: red; border: 2px solid red !important;}
+		.feature-center .icon i {color: red;}
+		.gtco-cover a {color: rgba(255, 255, 255, 1.0);}
 	</style>
 
 
@@ -72,7 +76,7 @@
 	</head>
 	<body>
 		
-	<!-- <div class="gtco-loader"></div>
+	<div class="gtco-loader"></div>
 	
 	<div id="page">
 	<nav class="gtco-nav" role="navigation" style="border-bottom: 1px solid #ccc;">
@@ -85,7 +89,7 @@
 					<ul>
 						<li id="pagIndex" ><a href="https://supremaciabr.herokuapp.com/">Home</a></li>
 						<li><a href="#">Sobre o comando</a></li>
-						<li class="pagRegime"><a href="regimeinterno">Regime interno</a></li>
+						<li class="pagRegime"><a href="regimeinterno">Regimento</a></li>
 						<li class="has-dropdown">
 							<a href="services.html">Serviços</a>
 							<ul class="dropdown">
@@ -110,4 +114,4 @@
 			</div>
 			
 		</div>
-	</nav> -->
+	</nav>

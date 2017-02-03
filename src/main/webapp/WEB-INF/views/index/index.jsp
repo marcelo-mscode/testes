@@ -17,9 +17,9 @@
 			<div class="row">
 				<div class="col-md-12 col-md-offset-0 text-center">
 					<div class="display-t">
-						<div class="display-tc animate-box" data-animate-effect="fadeIn">
+						<div class="display-tc">
 							
-							<div class=" box-opacity">
+							<div class="box-opacity animated fadeInDownBig">
 								<h2>comando</h2>
 								<h1>x Supremacia br x</h1>
 								<h2>GTA V Online</h2>
@@ -38,7 +38,7 @@
 		<div class="gtco-container">
 			<div class="row">
 				<div class="col-md-4 col-sm-4">
-					<div class="feature-center animate-box" data-animate-effect="fadeIn">
+					<div class="feature-center animated fadeInUp">
 						<span class="icon">
 							<!-- <i class="icon-eye"></i> -->
 							<img alt="" src="resources/images/guerra.png">
@@ -121,7 +121,9 @@
 						<div class="col-md-2 col-sm-6 animate-box">
 							<div class="feature-center">
 								<span class="icon">
-									<i class="icon-anchor"></i>
+									<i class="icon-star"></i>
+									<i class="icon-star"></i>
+									<i class="icon-star"></i>
 								</span>
 
 								<span class="counter js-counter" data-from="0" data-to="1" data-speed="50" data-refresh-interval="50">1</span>
@@ -133,7 +135,8 @@
 						<div class="col-md-2 col-sm-6 animate-box">
 							<div class="feature-center">
 								<span class="icon">
-									<i class="icon-briefcase"></i>
+									<i class="icon-star"></i>
+									<i class="icon-star"></i>
 								</span>
 								<span class="counter js-counter" data-from="0" data-to="6" data-speed="5000" data-refresh-interval="50">1</span>
 								<span class="counter-label">Comissários</span>
@@ -142,7 +145,7 @@
 						<div class="col-md-2 col-sm-6 animate-box">
 							<div class="feature-center">
 								<span class="icon">
-									<i class="icon-clock"></i>
+									<i class="icon-star"></i>
 								</span>
 
 								<span class="counter js-counter" data-from="0" data-to="7" data-speed="5000" data-refresh-interval="50">1</span>
@@ -154,7 +157,8 @@
 						<div class="col-md-2 col-sm-6 animate-box">
 							<div class="feature-center">
 								<span class="icon">
-									<i class="icon-clock"></i>
+									<i class="icon-user"></i>
+									<i class="icon-user"></i>
 								</span>
 
 								<span class="counter js-counter" data-from="0" data-to="45" data-speed="5000" data-refresh-interval="50">1</span>
@@ -166,7 +170,7 @@
 						<div class="col-md-2 col-sm-6 animate-box">
 							<div class="feature-center">
 								<span class="icon">
-									<i class="icon-clock"></i>
+									<i class="icon-user"></i>
 								</span>
 
 								<span class="counter js-counter" data-from="0" data-to="9" data-speed="5000" data-refresh-interval="50">1</span>

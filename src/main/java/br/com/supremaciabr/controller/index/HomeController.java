@@ -9,7 +9,7 @@ public class HomeController {
 	
 	@RequestMapping("/")
 	public ModelAndView index(){
-		ModelAndView MV = new ModelAndView("index/404");
+		ModelAndView MV = new ModelAndView("index/index");
 		return MV;
 	}
 	

@@ -10,20 +10,22 @@
 <style type="text/css">
 	
 	.pagRegime{color: #fff !important;}
+	.gtco-nav {background-color: rgba(255,255,255,0.5) !important}
+	
 
 </style>
 
 <c:import url="../comum_/header.jsp" />
 
 
-<header id="gtco-header" class="gtco-cover gtco-cover-sm" role="banner" style="background-image:url(images/img_bg_1.jpg);">
+<header id="gtco-header" class="gtco-cover gtco-cover-sm" role="banner" style="background-image:url(resources/images/21.jpg);">
 		<div class="overlay"></div>
 		<div class="gtco-container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t">
-						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<h1>REGIME INTERNO<br> SMBR</h1>
+						<div class="display-tc animated bounceInDown" data-animate-effect="fadeIn">
+							<h1 style="margin-top: -50px">REGIMENTO SMBR</h1>
 							
 						</div>
 					</div>
@@ -34,15 +36,15 @@
 	
 	<div class="gtco-section">
 		<div class="gtco-container">
-			<div class="row animate-box">
+			<div class="row animated fadeInDown">
 				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
 					<h2>REGRAS</h2>
 					<p>Todos os membros deverão observar as regras e respeita-las, caso algum membro seja pego descumprindo algumas delas, será levado ao conselho, e dependendo da gravidade será expulso do comando.</p>
 				</div>
 			</div>
-			<div class="row animate-box">
+			<div class="row animated bounceInLeft" data-animate-effect="fadeIn">
 				<div class="col-md-6">
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+					<div class="feature-left animated bounceInLeft" data-animate-effect="fadeIn">
 						<span class="icon">
 							<i class="icon-check"></i>
 						</span>
@@ -52,7 +54,7 @@
 						</div>
 					</div>
 
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+					<div class="feature-left animated bounceInLeft">
 						<span class="icon">
 							<i class="icon-check"></i>
 						</span>
@@ -62,7 +64,7 @@
 						</div>
 					</div>
 
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+					<div class="feature-left animated bounceInDown">
 						<span class="icon">
 							<i class="icon-check"></i>
 						</span>
@@ -75,7 +77,7 @@
 				<div class="col-md-6">
 				
 
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+					<div class="feature-left animated bounceInDown">
 						<span class="icon">
 							<i class="icon-check"></i>
 						</span>
@@ -88,7 +90,7 @@
 						</div>
 					</div>
 
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+					<div class="feature-left animated bounceInDown" data-animate-effect="fadeInLeft">
 						<span class="icon">
 							<i class="icon-check"></i>
 						</span>
@@ -98,7 +100,7 @@
 						</div>
 					</div>
 
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+					<div class="feature-left animated bounceInDown" data-animate-effect="fadeInLeft">
 						<span class="icon">
 							<i class="icon-check"></i>
 						</span>
@@ -134,7 +136,7 @@
 		</div>
 	</div>
 
-	<div class="gtco-cover gtco-cover-sm" style="background-image:url(images/img_bg_3.jpg);">
+	<div class="gtco-cover gtco-cover-sm" style="background-image:url(resources/images/31.jpg);">
 		<div class="overlay"></div>
 		<div class="gtco-container">
 			<div class="row">
