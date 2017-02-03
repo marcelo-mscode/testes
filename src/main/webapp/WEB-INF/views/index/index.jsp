@@ -94,16 +94,16 @@
 					</div>
 				</div>
 				<div class="col-md-4">
-				<span>Mata-mata em equipe#2<br>"CHORA TECLADO, CAMPOSBR LADRÃO"<br>29/01/2017</span>
+				<span>Mata-mata#2<br>"CHORA TECLADO, CAMPOSBR LADRÃO"<br>29/01/2017</span>
 					<div class="gtco-video gtco-video-sm gtco-bg" style="background-image: url(resources/images/video2.png); ">
 						<a href="https://www.youtube.com/watch?v=fm1XcWhWwlw" class="popup-vimeo"><i class="icon-video"></i></a>
 						<div class="overlay"></div>
 					</div>
 				</div>
 				<div class="col-md-4">
-				<span>Mata-mata em equipe#<br>"VIDEO EM EDIÇÃO AGUARDEM"<br>00/00/2017</span>
-					<div class="gtco-video gtco-video-sm gtco-bg" style="background-image: url(resources/images/video1.png); ">
-						<a href="https://www.youtube.com/watch?v=BbWSewT8urk" class="popup-vimeo"><i class="icon-video"></i></a>
+				<span>Mata-mata#3<br>"Tão camp que paga IPTU do lugar"<br>31/01/2017</span>
+					<div class="gtco-video gtco-video-sm gtco-bg" style="background-image: url(resources/images/video3.png); ">
+						<a href="https://www.youtube.com/watch?v=D4m0J2ngaFw" class="popup-vimeo"><i class="icon-video"></i></a>
 						<div class="overlay"></div>
 					</div>
 				</div>
@@ -111,7 +111,7 @@
 		</div>
 	</div>
 
-	<div id="gtco-counter" class="gtco-bg gtco-cover gtco-counter" style="background-image:url(resources/images/img_bg_2.png);">
+	<div id="gtco-counter" class="gtco-bg gtco-cover gtco-counter" style="background-image:url(resources/images/soldado.jpg);">
 		<div class="overlay"></div>
 		<div class="gtco-container">
 			<div class="row">
