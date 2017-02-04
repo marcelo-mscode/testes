@@ -308,6 +308,14 @@
 		    <version>1.2</version>
 		</dependency>
 		
+		
+		<dependency>
+    <groupId>postgresql</groupId>
+    <artifactId>postgresql</artifactId>
+    <version>9.0-801.jdbc4</version>
+</dependency>
+		
+		
 		<!-- https://mvnrepository.com/artifact/postgresql/postgresql -->
 
 	</dependencies>
