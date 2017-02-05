@@ -1,10 +1,13 @@
 package br.com.supremaciabr.daos;
 
+
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
-import javax.persistence.TypedQuery;
+import javax.persistence.Query;
 import javax.transaction.Transactional;
+
 import org.springframework.stereotype.Repository;
+
 import br.com.supremaciabr.model.Membros;
 
 
@@ -15,8 +18,14 @@ public class MembrosDAO {
 	@PersistenceContext private EntityManager manager;
 	
 	public Membros listaMembros(){
-		TypedQuery<Membros> regras = manager.createQuery("from Membros", Membros.class).setMaxResults(1);
-		return regras.getSingleResult();
+		try {
+			Query  r = manager.createQuery("from Membros").setMaxResults(1);
+			Membros membros = (Membros) r.getSingleResult();
+			return membros;
+		} catch (Exception e) {
+			e.getStackTrace();
+			return null;
+		}
 	}
 	
 	public void criaMembros(Membros membro){
@@ -30,7 +39,5 @@ public class MembrosDAO {
 
 		}
 	}
-	
-	
 
 }
