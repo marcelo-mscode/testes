@@ -91,7 +91,7 @@
 				<c:forEach items="${videos}" var="videos">
 					<div class="col-md-4">
 					<span>${videos.titulo}<br>${videos.subTitulo}<br>29/01/2017</span>
-						<div class="gtco-video gtco-video-sm gtco-bg" style="background-image: url(resources/images/${videos.nomeImage}); ">
+						<div class="gtco-video gtco-video-sm gtco-bg" style="background-image: url(${videos.nomeImage}); ">
 							<a href="${videos.url}" class="popup-vimeo"><i class="icon-video"></i></a>
 							<div class="overlay"></div>
 						</div>

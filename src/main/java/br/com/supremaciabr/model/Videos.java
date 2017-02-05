@@ -1,6 +1,7 @@
 package br.com.supremaciabr.model;
 
 import java.util.Calendar;
+import java.util.Date;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -8,6 +9,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import javax.persistence.Transient;
 
 
 @Entity
@@ -22,24 +24,29 @@ public class Videos {
 	private String nomeImage;
 
 	
-	@Temporal(TemporalType.TIMESTAMP)private Calendar postadoEm;
-
+	@Transient	private String postadoEmTrans;
 	
+	@Temporal(TemporalType.TIMESTAMP)private Date postadoEm;
 
-	
 	
 // ------------------------------------------------------------- //
 	
 	public String getSubTitulo() {
 		return subTitulo;
 	}
+	public String getPostadoEmTrans() {
+		return postadoEmTrans;
+	}
+	public void setPostadoEmTrans(String postadoEmTrans) {
+		this.postadoEmTrans = postadoEmTrans;
+	}
 	public void setSubTitulo(String subTitulo) {
 		this.subTitulo = subTitulo;
 	}
-	public Calendar getPostadoEm() {
+	public Date getPostadoEm() {
 		return postadoEm;
 	}
-	public void setPostadoEm(Calendar postadoEm) {
+	public void setPostadoEm(Date postadoEm) {
 		this.postadoEm = postadoEm;
 	}
 	public Integer getIdVideos() {

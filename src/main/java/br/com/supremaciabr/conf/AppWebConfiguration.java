@@ -9,10 +9,11 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 import br.com.supremaciabr.controller.index.HomeController;
 import br.com.supremaciabr.daos.VideoDAO;
+import br.com.supremaciabr.videos.VideosController;
 
 
 @EnableWebMvc
-@ComponentScan(basePackageClasses={HomeController.class,HomeController.class,VideoDAO.class})
+@ComponentScan(basePackageClasses={HomeController.class,HomeController.class,VideoDAO.class,VideosController.class})
 public class AppWebConfiguration extends WebMvcConfigurerAdapter{
 	
 	
