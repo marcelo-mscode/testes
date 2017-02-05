@@ -39,7 +39,7 @@
 	<![endif]-->
 	
 	<style type="text/css">
-		.adminTopo{height: 600px;padding-top: 100px}
+		.adminTopo{height: 1600px;padding-top: 100px}
 		.formVideo{height: 430px;padding: 20px 0 20px 0;}
 	
 	</style>
@@ -102,54 +102,30 @@
 	
 	</div>
 	
-	<div class="col-md-4">
+	<div class="col-md-12" style="margin-top: 50px">
 		<h4>Editar vídeo</h4>
-		
-		
-	<c:forEach items="${ultimoVideo}" var="editaVideo" >
-		
-		<form class="form-control formVideo" action="editaVideo" method="post">
-		
+		<table class="table table-striped">
+			<tr>
+				<th>Título Vídeo</th>
+				<th>Sub-Título</th>
+				<th>Caminho Imagem</th>
+				<th>Url Vídeo</th>
+				<th>Data Postagem</th>
+			</tr>
+			<c:forEach items="${ultimoVideo}" var="editaVideo" >
+			<form class="form-control formVideo" action="editaVideo" method="post">
 			<input type="hidden" name="idVideos" value="${editaVideo.idVideos}"  />
-		
-			<div class="col-md-12 col-sm-6">
-				<div class="form-group">
-					<label for="imagem" class="sr-only">Caminho da Imagem</label>
-					<input name="nomeImage"  type="text" class="form-control" id="imagem" value="${editaVideo.nomeImage}">
-				</div>
-			</div>
-	 		<div class="col-md-12 col-sm-6">
-				<div class="form-group">
-					<label for="name" class="sr-only">Data Postagem</label>
-					<input name="postadoEmTrans" type="date" class="form-control" id="postagem" placeholder="Data Postagem">
-				</div>
-			</div>
-		<div class="col-md-12 col-sm-6">
-				<div class="form-group">
-					<label for="name" class="sr-only">Título</label>
-					<input name="titulo" type="text" class="form-control" id="titulo" value="${editaVideo.titulo}">
-				</div>
-			</div>
-
-			<div class="col-md-12 col-sm-6">
-				<div class="form-group">
-					<label for="name" class="sr-only">Sub-Título</label>
-					<input name="subTitulo" type="text" class="form-control" id="subTitulo" value="${editaVideo.subTitulo}">
-				</div>
-			</div>
-
-			<div class="col-md-12 col-sm-6">
-				<div class="form-group">
-					<label for="name" class="sr-only">Url Vídeo</label>
-					<input name="url" type="text" class="form-control" id="url" value="${editaVideo.url}">
-				</div>
-			</div>
-
-			<div class="col-md-12 col-sm-6">
-				<button type="submit" class="btn btn-success btn-block">Enviar</button>
-			</div>
-		</form>
-	</c:forEach>
+				<tr>
+					<td><input name="nomeImage"  type="text" class="form-control" id="imagem" value="${editaVideo.nomeImage}"></td>
+					<td><input name="titulo" type="text" class="form-control" id="titulo" value="${editaVideo.titulo}"></td>
+					<td><input name="subTitulo" type="text" class="form-control" id="subTitulo" value="${editaVideo.subTitulo}"></td>
+					<td><input name="url" type="text" class="form-control" id="url" value="${editaVideo.url}"></td>
+					<td><input name="postadoEmTrans" type="date" class="form-control" id="postagem" placeholder="Data Postagem"></td>
+					<td><button type="submit" class="btn btn-success btn-block">Enviar</button></td>
+				</tr>
+			</form>
+			</c:forEach>
+		</table>
 	</div>
 	
 	

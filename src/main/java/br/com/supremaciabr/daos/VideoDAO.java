@@ -30,7 +30,7 @@ public class VideoDAO {
 	}
 
 	public List<Videos> listaUltimoVideo(){
-		TypedQuery<Videos> videos = manager.createQuery("from Videos order by idVideos desc", Videos.class).setMaxResults(1);
+		TypedQuery<Videos> videos = manager.createQuery("from Videos order by idVideos desc", Videos.class);
 		return videos.getResultList();
 	}
 	
