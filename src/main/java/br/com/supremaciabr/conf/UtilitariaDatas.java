@@ -12,7 +12,22 @@ import java.util.Locale;
 
 
 public class UtilitariaDatas {
-
+	
+	
+	// ---------------- Converte de String para Date ----------------------------//	
+		public Date formataDatasStringParaDate(String data){
+			Calendar c = Calendar.getInstance();
+			SimpleDateFormat df = new SimpleDateFormat("dd/MM/yyyy HH:mm", new Locale("pt", "BR"));
+			try {
+				c.setTime(df.parse(data));
+				} catch (ParseException e) {
+					e.printStackTrace();
+				}
+			return c.getTime();
+		}
+	
+	
+	
 	
 // ----------------Converte Valores de Reais para Dolar ---------------------//
 				

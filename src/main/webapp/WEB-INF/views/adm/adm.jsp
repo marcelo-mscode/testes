@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>   
 <%@ taglib uri="http://www.springframework.org/security/tags" prefix="security" %>   
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 
 <!DOCTYPE HTML>
 
@@ -122,7 +123,7 @@
 					<td><input name="titulo" type="text" class="form-control" id="titulo" value="${editaVideo.titulo}"></td>
 					<td><input name="subTitulo" type="text" class="form-control" id="subTitulo" value="${editaVideo.subTitulo}"></td>
 					<td><input name="url" type="text" class="form-control" id="url" value="${editaVideo.url}"></td>
-					<td><input name="postadoEmTrans" type="date" class="form-control" id="postagem" placeholder="Data Postagem"></td>
+					<td><input name="postadoEmTrans" type="text" class="form-control" id="postagem" value='<fmt:formatDate value="${editaVideo.postadoEm}" pattern="dd/MM/YYYY"/>' /></td>
 					<td><button type="submit" class="btn btn-success btn-block">Enviar</button></td>
 					<td><a href="removeVideo?idVideo=${editaVideo.idVideos}" class="btn btn-Danger btn-block">X</a></td>
 				</tr>

@@ -1,6 +1,8 @@
 package br.com.supremaciabr.daos;
 
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
 
 import javax.persistence.EntityManager;
@@ -37,7 +39,11 @@ public class VideoDAO {
 	
 	public void salvaVideo(Videos videos){
 		try {
-			videos.setPostadoEm(Calendar.getInstance().getTime());
+			
+			SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
+			Date data = new java.sql.Date(format.parse(videos.getPostadoEmTrans()).getTime());
+			
+			videos.setPostadoEm(data);
 			manager.persist(videos);
 		} catch (Exception e) {
 			JOptionPane.showMessageDialog(null, "Deu erro em salvar video: "+e);
@@ -46,7 +52,11 @@ public class VideoDAO {
 	
 	public void editaVideo(Videos videos){
 		try {
-			videos.setPostadoEm(Calendar.getInstance().getTime());
+			
+			SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
+			Date data = new java.sql.Date(format.parse(videos.getPostadoEmTrans()).getTime());
+			
+			videos.setPostadoEm(data);
 			manager.merge(videos);
 		} catch (Exception e) {
 			JOptionPane.showMessageDialog(null, "Deu erro em Editar Video: "+e);

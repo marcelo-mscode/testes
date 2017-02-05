@@ -90,7 +90,7 @@
 			
 				<c:forEach items="${videos}" var="videos">
 					<div class="col-md-4">
-					<span>${videos.titulo}<br>"${videos.subTitulo}"<br>29/01/2017</span>
+					<span>${videos.titulo}<br>"${videos.subTitulo}"<br><fmt:formatDate value="${videos.postadoEm}" pattern="dd/MM/YYYY"/></span>
 						<div class="gtco-video gtco-video-sm gtco-bg" style="background-image: url(${videos.nomeImage}); ">
 							<a href="${videos.url}" class="popup-vimeo"><i class="icon-video"></i></a>
 							<div class="overlay"></div>
