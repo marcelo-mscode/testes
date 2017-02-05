@@ -131,7 +131,7 @@
 									<i class="icon-star"></i>
 								</span>
 
-								<span class="counter js-counter" data-from="0" data-to="1" data-speed="50" data-refresh-interval="50">1</span>
+								<span class="counter js-counter" data-from="0" data-to="${qtdmembros.lider}" data-speed="50" data-refresh-interval="50">${qtdmembros.lider}</span>
 								<span class="counter-label">Lideres</span>
 							</div>
 						</div>
@@ -143,7 +143,7 @@
 									<i class="icon-star"></i>
 									<i class="icon-star"></i>
 								</span>
-								<span class="counter js-counter" data-from="0" data-to="6" data-speed="5000" data-refresh-interval="50">1</span>
+								<span class="counter js-counter" data-from="0" data-to="${qtdmembros.comissarios}" data-speed="5000" data-refresh-interval="50">${qtdmembros.comissarios}</span>
 								<span class="counter-label">Comissários</span>
 							</div>
 						</div>
@@ -153,7 +153,7 @@
 									<i class="icon-star"></i>
 								</span>
 
-								<span class="counter js-counter" data-from="0" data-to="7" data-speed="5000" data-refresh-interval="50">1</span>
+								<span class="counter js-counter" data-from="0" data-to="${qtdmembros.tenetens}" data-speed="5000" data-refresh-interval="50">${qtdmembros.tenetens}</span>
 								<span class="counter-label">Tenentes</span>
 
 							</div>
@@ -166,7 +166,7 @@
 									<i class="icon-user"></i>
 								</span>
 
-								<span class="counter js-counter" data-from="0" data-to="45" data-speed="5000" data-refresh-interval="50">1</span>
+								<span class="counter js-counter" data-from="0" data-to="${qtdmembros.representantes}" data-speed="5000" data-refresh-interval="50">${qtdmembros.representantes}</span>
 								<span class="counter-label">Representantes</span>
 
 							</div>
@@ -178,7 +178,7 @@
 									<i class="icon-user"></i>
 								</span>
 
-								<span class="counter js-counter" data-from="0" data-to="9" data-speed="5000" data-refresh-interval="50">1</span>
+								<span class="counter js-counter" data-from="0" data-to="${qtdmembros.capangas}" data-speed="5000" data-refresh-interval="50">${qtdmembros.capangas}</span>
 								<span class="counter-label">Capangas</span>
 
 							</div>
@@ -189,15 +189,14 @@
 								<span class="icon">
 									<i class="icon-eye"></i>
 								</span>
-
-								<span class="counter js-counter" data-from="0" data-to="68" data-speed="5000" data-refresh-interval="50">1</span>
+								
+								<c:set value="${qtdmembros.lider + qtdmembros.comissarios+qtdmembros.tenetens+qtdmembros.representantes+qtdmembros.capangas}" var="totalMembros" />
+								
+								<span class="counter js-counter" data-from="0" data-to="${totalMembros}" data-speed="5000" data-refresh-interval="50">${totalMembros}</span>
 								<span class="counter-label">Total de Membros</span>
 
 							</div>
 						</div>
-						
-						
-						
 					</div>
 				</div>
 			</div>

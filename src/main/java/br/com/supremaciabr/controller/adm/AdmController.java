@@ -5,6 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
+import br.com.supremaciabr.daos.MembrosDAO;
 import br.com.supremaciabr.daos.RegrasDAO;
 import br.com.supremaciabr.daos.VideoDAO;
 import br.com.supremaciabr.model.RegrasInternas;
@@ -16,6 +17,7 @@ public class AdmController {
 	
 	@Autowired VideoDAO videoDAO;
 	@Autowired RegrasDAO regrasDAO;
+	@Autowired MembrosDAO membroDao;
 	
 	
 	@RequestMapping("balanosman")
@@ -24,6 +26,7 @@ public class AdmController {
 		
 		MV.addObject("ultimoVideo", videoDAO.listaUltimosVideo());
 		MV.addObject("regras", regrasDAO.listaRegrasTodas());
+		MV.addObject("qtdmembros", membroDao.listaMembros());
 		return MV;
 	}
 	

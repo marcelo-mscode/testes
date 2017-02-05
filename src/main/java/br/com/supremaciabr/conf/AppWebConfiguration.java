@@ -9,6 +9,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 import br.com.supremaciabr.controller.adm.AdmController;
 import br.com.supremaciabr.controller.index.HomeController;
+import br.com.supremaciabr.controller.qtdmembros.QtdMembrosController;
 import br.com.supremaciabr.controller.regras.RegrasController;
 import br.com.supremaciabr.controller.videos.VideosController;
 import br.com.supremaciabr.daos.RegrasDAO;
@@ -22,6 +23,7 @@ import br.com.supremaciabr.daos.VideoDAO;
 									     AdmController.class,
 									     RegrasController.class,
 									     VideosController.class,
+									     QtdMembrosController.class,
 									     RegrasController.class})
 
 

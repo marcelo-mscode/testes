@@ -12,12 +12,19 @@ public class Membros {
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Integer idMembros;
+	private Integer lider;
 	private Integer comissarios;
 	private Integer tenetens;
 	private Integer representantes;
 	private Integer capangas;
 
 	
+	public Integer getLider() {
+		return lider;
+	}
+	public void setLider(Integer lider) {
+		this.lider = lider;
+	}
 	public Integer getIdMembros() {
 		return idMembros;
 	}

@@ -67,8 +67,7 @@
 		<ul class="gtco-tab-nav">
 			<li class="active"><a href="#" data-tab="1"><span class="icon visible-xs"><i class="icon-command"></i></span><span class="hidden-xs">Vídeos</span></a></li>
 			<li><a href="#" data-tab="2"><span class="icon visible-xs"><i class="icon-bar-graph"></i></span><span class="hidden-xs">Regras</span></a></li>
-			<li><a href="#" data-tab="3"><span class="icon visible-xs"><i class="icon-bag"></i></span><span class="hidden-xs">Muambas</span></a></li>
-			<li><a href="#" data-tab="4"><span class="icon visible-xs"><i class="icon-box"></i></span><span class="hidden-xs">Moto Clube / Exportação</span></a></li>
+			<li><a href="#" data-tab="3"><span class="icon visible-xs"><i class="icon-bag"></i></span><span class="hidden-xs">Qtd Membros</span></a></li>
 		</ul>
 		
 			
@@ -201,25 +200,46 @@
 				</table>
 			</div>
 		  </div>
-		  </div>
+		 
 <!-- /*  Qtd Membros   */ -->			  
 		  <div class="gtco-tab-content tab-content" data-tab-content="3">
 		  	<div class="col-md-4">
-				<h4>Membros</h4>
-				<form class="form-control formRegras" action="cadastraRegras" method="post">
+				<h4>Qtd. Membros</h4>
+				<form class="form-control formRegras" action="cadastraQtdMembros" method="post">
 					<div class="col-md-12 col-sm-6">
 						<div class="form-group">
-							<label for="titulo" class="sr-only">Título</label>
-							<input name="tituloRegimento"  type="text" class="form-control" id="titulo" placeholder="Título">
+							<label for="titulo" class="sr-only">Líder</label>
+							<input name="lider"  type="text" class="form-control" id="titulo" placeholder="Líder">
 						</div>
 					</div>
 
 					<div class="col-md-12 col-sm-6">
 						<div class="form-group">
-							<label for="descricao" class="sr-only">Descrição</label>
-							<textarea name="subTituloDescricao"  class="form-control" id="descricao" placeholder="Descrição da Regra" rows="8"></textarea>
+							<label for="descricao" class="sr-only">Comissários</label>
+							<input type="text" name="comissarios"  class="form-control" id="descricao" placeholder="Comissários" />
 						</div>
 					</div>
+
+					<div class="col-md-12 col-sm-6">
+						<div class="form-group">
+							<label for="descricao" class="sr-only">Tenentes</label>
+							<input type="text" name="tenetens"  class="form-control" id="descricao" placeholder="Tenentes" />
+						</div>
+					</div>
+					<div class="col-md-12 col-sm-6">
+						<div class="form-group">
+							<label for="descricao" class="sr-only">Representantes</label>
+							<input type="text" name="representantes"  class="form-control" id="descricao" placeholder="Representantes" />
+						</div>
+					</div>
+
+					<div class="col-md-12 col-sm-6">
+						<div class="form-group">
+							<label for="descricao" class="sr-only">Capangas</label>
+							<input type="text" name="capangas"  class="form-control" id="descricao" placeholder="Capangas" />
+						</div>
+					</div>
+
 
 					<div class="col-md-12 col-sm-6">
 						<button type="submit" class="btn btn-success btn-block">Cadastrar</button>
@@ -229,30 +249,31 @@
 			</div>
 			
 			<div class="col-md-12" style="margin-top: 50px">
-				<h4>Editar Regras</h4>
+				<h4>Editar Qtd membros</h4>
 				<table class="table table-striped">
 					<tr>
-						<th>ID</th>
-						<th>Título</th>
-						<th>Descrição</th>
+						<th>Líder</th>
+						<th>Comissários</th>
+						<th>Tenentes</th>
+						<th>Representantes</th>
+						<th>Capangas</th>
 						<th style="text-align: center;">Editar</th>
 						<th style="text-align: center;">Remover</th>
 					</tr>
-					<c:forEach items="${regras}" var="regras" >
-					<form class="form-control formVideo" action="editaRegras" method="post">
-					<input type="hidden" name="idRegimento" value="${regras.idRegimento}"  />
+					
+					<form class="form-control formVideo" action="editaQtdMembros" method="post">
+					<input type="hidden" name="idMembros" value="${qtdmembros.idMembros}"  />
 						<tr>
-							<td><input name="idRegimento" type="text" class="form-control" id="titulo" value="${regras.idRegimento}"></td>
-							<td><input name="tituloRegimento" type="text" class="form-control" id="titulo" value="${regras.tituloRegimento}"></td>
-							
-							<td>
-								<textarea name="subTituloDescricao" class="form-control" id="descricao" rows="5">${regras.subTituloDescricao}</textarea>
-							</td>
+							<td><input name="lider" type="text" class="form-control" id="titulo" value="${qtdmembros.lider}"></td>
+							<td><input name="comissarios" type="text" class="form-control" id="titulo" value="${qtdmembros.comissarios}"></td>
+							<td><input name="tenetens" type="text" class="form-control" id="titulo" value="${qtdmembros.tenetens}"></td>
+							<td><input name="representantes" type="text" class="form-control" id="titulo" value="${qtdmembros.representantes}"></td>
+							<td><input name="capangas" type="text" class="form-control" id="titulo" value="${qtdmembros.capangas}"></td>
 							<td><button type="submit" class="btn btn-success btn-block">Editar  Regra</button></td>
-							<td><a href="removeRegra?idRegra=${regras.idRegimento}" class="btn btn-Danger btn-block">X</a></td>
+							<td><a href="removeQtdMembros?idMembros=${qtdmembros.idMembros}" class="btn btn-Danger btn-block">X</a></td>
 						</tr>
 					</form>
-					</c:forEach>
+					
 				</table>
 			</div>
 		  </div>

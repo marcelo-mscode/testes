@@ -3,10 +3,8 @@ package br.com.supremaciabr.controller.regras;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-
 import br.com.supremaciabr.daos.RegrasDAO;
 import br.com.supremaciabr.model.Regimento;
-import br.com.supremaciabr.model.RegrasInternas;
 
 @Controller
 public class RegrasController {
