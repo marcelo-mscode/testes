@@ -38,7 +38,7 @@ public class RegrasDAO {
 	}
 	
 	
-	public void criaRegra(RegrasInternas regra){
+	public void criaRegra(Regimento regra){
 		try {
 			manager.persist(regra);
 		} catch (Exception e) {

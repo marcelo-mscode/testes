@@ -5,6 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import br.com.supremaciabr.daos.RegrasDAO;
+import br.com.supremaciabr.model.Regimento;
 import br.com.supremaciabr.model.RegrasInternas;
 
 @Controller
@@ -13,7 +14,7 @@ public class RegrasController {
 	@Autowired RegrasDAO regraDao;
 	
 	@RequestMapping("cadastraRegras")
-	public String cadastraRegras(RegrasInternas regra){
+	public String cadastraRegras(Regimento regra){
 		regraDao.criaRegra(regra);
 		return "redirect:balanosman";
 	}
