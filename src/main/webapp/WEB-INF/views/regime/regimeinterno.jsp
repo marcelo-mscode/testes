@@ -44,93 +44,30 @@
 			</div>
 			<div class="row animated bounceInLeft" data-animate-effect="fadeIn">
 				<div class="col-md-6">
-					<div class="feature-left animated bounceInLeft" data-animate-effect="fadeIn">
-						<span class="icon">
-							<i class="icon-check"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>1 - Respeito</h3>
-							<p>Todos deverão tratar com respeito cada membro do comando, em especial os oficiais e administradores do comando.</p>
+					<c:forEach items="${regras}" var="regras">
+						<div class="feature-left animated bounceInLeft" data-animate-effect="fadeIn">
+							<span class="icon">
+								<i class="icon-check"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>${regras.idRegras} - ${regras.titulo}</h3>
+								<p>${regras.descricao}</p>
+							</div>
 						</div>
-					</div>
-
-					<div class="feature-left animated bounceInLeft">
-						<span class="icon">
-							<i class="icon-check"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>2 - Brigas internas</h3>
-							<p>Não é permitido briga entre membros, exceto em caso de treinamento ou X1 amigável. Se matar um membro por acidente ( acontece ), tenha hombridade e peça desculpas e aceite desculpas, vida que segue. <b>Caso algum membro insista em continuar matando, saia da sessão ou passive e comunique imediatamente os oficias. NÃO PROSSIGA COM A BRIGA OU TAMBÉM SERÁ LEVADO AO CONSELHO.</b></p>
-						</div>
-					</div>
-
-					<div class="feature-left animated bounceInDown">
-						<span class="icon">
-							<i class="icon-check"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>3 - COMUNICAÇÃO</h3>
-							<p>Todos os membros ao ficarem online no jogo deverão entrar no TS do Comando para mantermos a ordem. Não desrepeite ninguém no TS, <b>NÃO GRITE</b> (alguns usam fone !!!!) , ou . Caso não saiba o endereço, solicitar para algum oficial. </p>
-						</div>
-					</div>
+    				</c:forEach>
 				</div>
 				<div class="col-md-6">
-				
-
-					<div class="feature-left animated bounceInDown">
-						<span class="icon">
-							<i class="icon-check"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>4 - Recrutamento</h3>
-							<p>Qualquer membro pode indicar players para o recrutamento, 
-							   peça para o player enviar o pedido para entrar no comando via
-							<b>Social Clube</b>, avisar de quem foi a indicação e algum tenente ou comissário
-							   entrará em contato. Só serão aceitos players acima de 16 anos.</p>
+					<c:forEach items="${regras2}" var="regras2">
+					<div class="feature-left animated bounceInLeft" data-animate-effect="fadeIn">
+							<span class="icon">
+								<i class="icon-check"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>${regras2.idRegras} - ${regras2.titulo}</h3>
+								<p>${regras2.descricao}</p>
+							</div>
 						</div>
-					</div>
-
-					<div class="feature-left animated bounceInDown" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="icon-check"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Regra</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-						</div>
-					</div>
-
-					<div class="feature-left animated bounceInDown" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="icon-check"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Regra</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-						</div>
-					</div>
-
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="icon-check"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Regra</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-						</div>
-					</div>
-
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="icon-check"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Regra</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit.</p>
-						</div>
-					</div>
-
-
+					</c:forEach>
 				</div>
 			</div>
 		</div>

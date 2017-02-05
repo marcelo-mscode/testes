@@ -7,13 +7,23 @@ import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
+import br.com.supremaciabr.controller.adm.AdmController;
 import br.com.supremaciabr.controller.index.HomeController;
+import br.com.supremaciabr.controller.regras.RegrasController;
+import br.com.supremaciabr.controller.videos.VideosController;
 import br.com.supremaciabr.daos.VideoDAO;
-import br.com.supremaciabr.videos.VideosController;
 
 
 @EnableWebMvc
-@ComponentScan(basePackageClasses={HomeController.class,HomeController.class,VideoDAO.class,VideosController.class})
+@ComponentScan(basePackageClasses={HomeController.class,
+									     VideoDAO.class,
+									     AdmController.class,
+									     RegrasController.class,
+									     VideosController.class,
+									     RegrasController.class})
+
+
+
 public class AppWebConfiguration extends WebMvcConfigurerAdapter{
 	
 	

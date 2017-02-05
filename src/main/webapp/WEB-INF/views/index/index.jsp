@@ -294,7 +294,8 @@
 				
 				<div class="gtco-tabs">
 					<ul class="gtco-tab-nav">
-						<li class="active"><a href="#" data-tab="1"><span class="icon visible-xs"><i class="icon-command"></i></span><span class="hidden-xs">Guerras</span></a></li>
+						<li class="active">
+							<a href="#" data-tab="1"><span class="icon visible-xs"><i class="icon-command"></i></span><span class="hidden-xs">Guerras</span></a></li>
 						<li><a href="#" data-tab="2"><span class="icon visible-xs"><i class="icon-bar-graph"></i></span><span class="hidden-xs">Heists</span></a></li>
 						<li><a href="#" data-tab="3"><span class="icon visible-xs"><i class="icon-bag"></i></span><span class="hidden-xs">Muambas</span></a></li>
 						<li><a href="#" data-tab="4"><span class="icon visible-xs"><i class="icon-box"></i></span><span class="hidden-xs">Moto Clube / Exportação</span></a></li>

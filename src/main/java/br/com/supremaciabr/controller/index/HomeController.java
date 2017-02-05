@@ -7,6 +7,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
+import br.com.supremaciabr.daos.RegrasDAO;
 import br.com.supremaciabr.daos.VideoDAO;
 
 @Controller
@@ -15,6 +16,7 @@ public class HomeController {
 	
 	
 	@Autowired VideoDAO videoDAO;
+	@Autowired RegrasDAO regrasDAO;
 	
 	
 	@RequestMapping("/")
@@ -33,6 +35,8 @@ public class HomeController {
 	@RequestMapping("/regimeinterno")
 	public ModelAndView regimeinterno(){
 		ModelAndView MV = new ModelAndView("regime/regimeinterno");
+		MV.addObject("regras", regrasDAO.listaRegras());
+		MV.addObject("regras2", regrasDAO.listaRegrasUltimos());
 		return MV;
 	}
 	
