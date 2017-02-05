@@ -13,10 +13,17 @@ public class Regimento {
     @GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Integer idRegimento;
 	private String titulo;
+	private String tituloRegimento;
 	private String subTituloDescricao;
 
 	
 	
+	public String getTituloRegimento() {
+		return tituloRegimento;
+	}
+	public void setTituloRegimento(String tituloRegimento) {
+		this.tituloRegimento = tituloRegimento;
+	}
 	public Integer getIdRegimento() {
 		return idRegimento;
 	}
