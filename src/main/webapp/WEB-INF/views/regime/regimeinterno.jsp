@@ -39,7 +39,8 @@
 			<div class="row animated fadeInDown">
 				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
 					<h2>REGRAS</h2>
-					<p>Todos os membros deverão observar as regras e respeita-las, caso algum membro seja pego descumprindo algumas delas, será levado ao conselho, e dependendo da gravidade será expulso do comando.</p>
+					<p>Para mantermos a organização do comando e fazermos um bom jogo, todos os membros deverão observar as regras e respeita-las, caso algum membro seja pego descumprindo
+					  algumas delas, será levado ao conselho, e dependendo da gravidade será expulso do comando.</p>
 				</div>
 			</div>
 			<div class="row animated bounceInLeft" data-animate-effect="fadeIn">
