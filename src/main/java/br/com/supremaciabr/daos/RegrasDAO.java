@@ -10,6 +10,7 @@ import javax.transaction.Transactional;
 
 import org.springframework.stereotype.Repository;
 
+import br.com.supremaciabr.model.Regimento;
 import br.com.supremaciabr.model.RegrasInternas;
 
 
@@ -21,8 +22,8 @@ public class RegrasDAO {
 	
 	
 	
-	public List<RegrasInternas> listaRegras(){
-		TypedQuery<RegrasInternas> regras = manager.createQuery("from Regimento", RegrasInternas.class).setMaxResults(3);
+	public List<Regimento> listaRegras(){
+		TypedQuery<Regimento> regras = manager.createQuery("from Regimento", Regimento.class).setMaxResults(3);
 		return regras.getResultList();
 	}
 
