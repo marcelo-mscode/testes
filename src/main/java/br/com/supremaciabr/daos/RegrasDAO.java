@@ -22,7 +22,7 @@ public class RegrasDAO {
 	
 	
 	public List<RegrasInternas> listaRegras(){
-		TypedQuery<RegrasInternas> regras = manager.createQuery("from RegrasInternas", RegrasInternas.class).setMaxResults(3);
+		TypedQuery<RegrasInternas> regras = manager.createQuery("from Regras", RegrasInternas.class).setMaxResults(3);
 		return regras.getResultList();
 	}
 
