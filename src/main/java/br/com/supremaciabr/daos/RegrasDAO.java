@@ -39,11 +39,7 @@ public class RegrasDAO {
 	
 	
 	public void criaRegra(Regimento regra){
-		try {
 			manager.persist(regra);
-		} catch (Exception e) {
-			System.out.println(""+e);
-		}
 	}
 
 	public void editaRegra(Regimento regra){

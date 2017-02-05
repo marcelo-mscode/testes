@@ -224,7 +224,7 @@
 
 
 
-<div id="gtco-subscribe">
+<!-- <div id="gtco-subscribe">
 		<div class="gtco-container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
@@ -254,7 +254,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 
 	<div class="gototop js-top">
