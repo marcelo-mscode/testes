@@ -36,7 +36,7 @@ public class HomeController {
 	public ModelAndView regimeinterno(){
 		ModelAndView MV = new ModelAndView("regime/regimeinterno");
 		  MV.addObject("regras", regrasDAO.listaRegras());
-		/*MV.addObject("regras2", regrasDAO.listaRegrasUltimos());*/
+		  MV.addObject("regras2", regrasDAO.listaRegrasUltimos());
 		return MV;
 	}
 	

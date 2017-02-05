@@ -23,7 +23,7 @@ public class RegrasDAO {
 	
 	
 	public List<Regimento> listaRegras(){
-		TypedQuery<Regimento> regras = manager.createQuery("from Regimento", Regimento.class).setMaxResults(3);
+		TypedQuery<Regimento> regras = manager.createQuery("from Regimento where idRegimento < 4", Regimento.class).setMaxResults(3);
 		return regras.getResultList();
 	}
 
@@ -32,8 +32,8 @@ public class RegrasDAO {
 		return regras.getResultList();
 	}
 
-	public List<RegrasInternas> listaRegrasUltimos(){
-		TypedQuery<RegrasInternas> regras = manager.createQuery("RegrasInternas where idRegras > 3", RegrasInternas.class);
+	public List<Regimento> listaRegrasUltimos(){
+		TypedQuery<Regimento> regras = manager.createQuery("from Regimento where idRegimento > 3", Regimento.class);
 		return regras.getResultList();
 	}
 	
