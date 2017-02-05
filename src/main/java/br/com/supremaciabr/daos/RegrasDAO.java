@@ -22,17 +22,17 @@ public class RegrasDAO {
 	
 	
 	public List<Regras> listaRegras(){
-		TypedQuery<Regras> regras = manager.createQuery("from Regras", Regras.class).setMaxResults(3);
+		TypedQuery<Regras> regras = manager.createQuery("SELECT * from Regras", Regras.class)/*.setMaxResults(3)*/;
 		return regras.getResultList();
 	}
 
 	public List<Regras> listaRegrasTodas(){
-		TypedQuery<Regras> regras = manager.createQuery("from Regras", Regras.class);
+		TypedQuery<Regras> regras = manager.createQuery("SELECT * from Regras", Regras.class);
 		return regras.getResultList();
 	}
 
 	public List<Regras> listaRegrasUltimos(){
-		TypedQuery<Regras> regras = manager.createQuery("from Regras where idRegras > 3", Regras.class);
+		TypedQuery<Regras> regras = manager.createQuery("SELECT * from Regras where idRegras > 3", Regras.class);
 		return regras.getResultList();
 	}
 	
