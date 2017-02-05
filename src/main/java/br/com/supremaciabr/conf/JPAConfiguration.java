@@ -70,7 +70,7 @@ public class JPAConfiguration {
 		return properties;
 	}
 	
-	/*@Bean
+/*	@Bean
 	@Profile("dev")
 	public DataSource dataSource(){
 	DriverManagerDataSource dataSource =
@@ -89,8 +89,8 @@ public class JPAConfiguration {
 		properties.setProperty("hibernate.show_sql", "false");
 		properties.setProperty("hibernate.format_sql", "false");
 		return properties;
-	}*/
-	
+	}
+	*/
 	
 	
 	

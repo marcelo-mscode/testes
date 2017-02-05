@@ -373,6 +373,7 @@
 							</div>
 							<div class="col-md-6 col-md-pull-6">
 								<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+									<h2>Muamba</h2>
 									<span class="icon">
 										<i class="icon-check"></i>
 									</span>
