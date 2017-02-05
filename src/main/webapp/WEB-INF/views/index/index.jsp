@@ -399,7 +399,7 @@
 									</span>
 									<div class="feature-copy">
 										<h3>vender em equipe é melhor</h3>
-										<p>Peça ajuda para vender ou coletar muamba.</p>
+										<p>Peça ajuda para vender ou coletar muamba, quando possível ajudaremos.</p>
 									</div>
 								</div>
 								
