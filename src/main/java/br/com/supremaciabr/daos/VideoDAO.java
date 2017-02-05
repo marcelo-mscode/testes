@@ -29,7 +29,7 @@ public class VideoDAO {
 		return videos.getResultList();
 	}
 
-	public List<Videos> listaUltimoVideo(){
+	public List<Videos> listaUltimosVideo(){
 		TypedQuery<Videos> videos = manager.createQuery("from Videos order by idVideos desc", Videos.class);
 		return videos.getResultList();
 	}
@@ -50,6 +50,15 @@ public class VideoDAO {
 			manager.merge(videos);
 		} catch (Exception e) {
 			JOptionPane.showMessageDialog(null, "Deu erro em Editar Video: "+e);
+		}
+	}
+	
+	public void removeVideo(Integer idVideos){
+		try {
+			Videos video =	manager.find(Videos.class, idVideos);
+			manager.remove(video);
+		} catch (Exception e) {
+			JOptionPane.showMessageDialog(null, "Deu erro ao apagar Video: "+e);
 		}
 	}
 	

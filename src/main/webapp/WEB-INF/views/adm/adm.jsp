@@ -111,6 +111,8 @@
 				<th>Caminho Imagem</th>
 				<th>Url Vídeo</th>
 				<th>Data Postagem</th>
+				<th>Salvar</th>
+				<th>Remover</th>
 			</tr>
 			<c:forEach items="${ultimoVideo}" var="editaVideo" >
 			<form class="form-control formVideo" action="editaVideo" method="post">
@@ -122,6 +124,7 @@
 					<td><input name="url" type="text" class="form-control" id="url" value="${editaVideo.url}"></td>
 					<td><input name="postadoEmTrans" type="date" class="form-control" id="postagem" placeholder="Data Postagem"></td>
 					<td><button type="submit" class="btn btn-success btn-block">Enviar</button></td>
+					<td><a href="removeVideo?idVideo=${editaVideo.idVideos}" class="btn btn-Danger btn-block">X</a></td>
 				</tr>
 			</form>
 			</c:forEach>
