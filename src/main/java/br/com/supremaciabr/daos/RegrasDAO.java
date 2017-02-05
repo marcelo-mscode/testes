@@ -23,12 +23,12 @@ public class RegrasDAO {
 	
 	
 	public List<Regimento> listaRegras(){
-		TypedQuery<Regimento> regras = manager.createQuery("from Regimento", Regimento.class).setMaxResults(3);
+		TypedQuery<Regimento> regras = manager.createQuery("from Regimento ORDER BY idRegimento", Regimento.class).setMaxResults(3);
 		return regras.getResultList();
 	}
 
 	public List<Regimento> listaRegrasTodas(){
-		TypedQuery<Regimento> regras = manager.createQuery("from Regimento", Regimento.class);
+		TypedQuery<Regimento> regras = manager.createQuery("from Regimento ORDER BY idRegimento", Regimento.class);
 		return regras.getResultList();
 	}
 
