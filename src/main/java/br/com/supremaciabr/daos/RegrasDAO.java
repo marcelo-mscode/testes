@@ -1,17 +1,13 @@
 package br.com.supremaciabr.daos;
 
 import java.util.List;
-
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
 import javax.swing.JOptionPane;
 import javax.transaction.Transactional;
-
 import org.springframework.stereotype.Repository;
-
 import br.com.supremaciabr.model.Regimento;
-import br.com.supremaciabr.model.RegrasInternas;
 
 
 @Repository
