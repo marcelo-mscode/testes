@@ -42,7 +42,7 @@ public class RegrasDAO {
 		try {
 			manager.persist(regra);
 		} catch (Exception e) {
-			JOptionPane.showMessageDialog(null, "Erro ao salvar Regra: "+e);
+			System.out.println(""+e);
 		}
 	}
 
