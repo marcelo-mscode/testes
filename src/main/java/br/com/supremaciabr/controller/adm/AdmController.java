@@ -23,7 +23,7 @@ public class AdmController {
 		ModelAndView MV = new ModelAndView("adm/adm");
 		
 		MV.addObject("ultimoVideo", videoDAO.listaUltimosVideo());
-		//MV.addObject("regras", regrasDAO.listaRegrasTodas());
+		MV.addObject("regras", regrasDAO.listaRegrasTodas());
 		return MV;
 	}
 	

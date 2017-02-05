@@ -27,8 +27,8 @@ public class RegrasDAO {
 		return regras.getResultList();
 	}
 
-	public List<RegrasInternas> listaRegrasTodas(){
-		TypedQuery<RegrasInternas> regras = manager.createQuery("from Regimento", RegrasInternas.class);
+	public List<Regimento> listaRegrasTodas(){
+		TypedQuery<Regimento> regras = manager.createQuery("from Regimento", Regimento.class);
 		return regras.getResultList();
 	}
 
@@ -42,11 +42,11 @@ public class RegrasDAO {
 		try {
 			manager.persist(regra);
 		} catch (Exception e) {
-			e.getStackTrace();
+			JOptionPane.showMessageDialog(null, "Erro ao salvar Regra: "+e);
 		}
 	}
 
-	public void editaRegra(RegrasInternas regra){
+	public void editaRegra(Regimento regra){
 		try {
 			manager.merge(regra);
 		} catch (Exception e) {
@@ -56,7 +56,7 @@ public class RegrasDAO {
 
 	public void removeRegra(Integer idRegra) {
 		try {
-			RegrasInternas regra = manager.find(RegrasInternas.class, idRegra);
+			Regimento regra = manager.find(Regimento.class, idRegra);
 			manager.remove(regra);
 		} catch (Exception e) {
 			

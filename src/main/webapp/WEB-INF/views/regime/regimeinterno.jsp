@@ -50,8 +50,8 @@
 								<i class="icon-check"></i>
 							</span>
 							<div class="feature-copy">
-								<h3>${regras.idRegras} - ${regras.titulo}</h3>
-								<p>${regras.descricao}</p>
+								<h3>${regras.idRegimento} - ${regras.tituloRegimento}</h3>
+								<p>${regras.subTituloDescricao}</p>
 							</div>
 						</div>
     				</c:forEach>

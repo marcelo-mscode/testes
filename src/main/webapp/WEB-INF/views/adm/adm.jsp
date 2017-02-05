@@ -155,14 +155,14 @@
 					<div class="col-md-12 col-sm-6">
 						<div class="form-group">
 							<label for="titulo" class="sr-only">Título</label>
-							<input name="titulo"  type="text" class="form-control" id="titulo" placeholder="Título">
+							<input name="tituloRegimento"  type="text" class="form-control" id="titulo" placeholder="Título">
 						</div>
 					</div>
 
 					<div class="col-md-12 col-sm-6">
 						<div class="form-group">
 							<label for="descricao" class="sr-only">Descrição</label>
-							<textarea name="descricao"  class="form-control" id="descricao" placeholder="Descrição da Regra" rows="8"></textarea>
+							<textarea name="subTituloDescricao"  class="form-control" id="descricao" placeholder="Descrição da Regra" rows="8"></textarea>
 						</div>
 					</div>
 
@@ -184,14 +184,14 @@
 					</tr>
 					<c:forEach items="${regras}" var="regras" >
 					<form class="form-control formVideo" action="editaRegras" method="post">
-					<input type="hidden" name="idRegras" value="${regras.idRegras}"  />
+					<input type="hidden" name="idRegimento" value="${regras.idRegimento}"  />
 						<tr>
-							<td><input name="titulo" type="text" class="form-control" id="titulo" value="${regras.titulo}"></td>
+							<td><input name="tituloRegimento" type="text" class="form-control" id="titulo" value="${regras.tituloRegimento}"></td>
 							<td>
-								<textarea name="descricao" class="form-control" id="descricao" rows="5">${regras.descricao}</textarea>
+								<textarea name="subTituloDescricao" class="form-control" id="descricao" rows="5">${regras.subTituloDescricao}</textarea>
 							</td>
 							<td><button type="submit" class="btn btn-success btn-block">Editar  Regra</button></td>
-							<td><a href="removeRegra?idRegra=${regras.idRegras}" class="btn btn-Danger btn-block">X</a></td>
+							<td><a href="removeRegra?idRegra=${regras.idRegimento}" class="btn btn-Danger btn-block">X</a></td>
 						</tr>
 					</form>
 					</c:forEach>

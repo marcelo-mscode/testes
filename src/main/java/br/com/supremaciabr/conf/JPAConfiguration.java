@@ -70,7 +70,7 @@ public class JPAConfiguration {
 		return properties;
 	}
 	
-	/*@Bean
+/*	@Bean
 	@Profile("dev")
 	public DataSource dataSource(){
 	DriverManagerDataSource dataSource =

@@ -20,7 +20,7 @@ public class RegrasController {
 	}
 
 	@RequestMapping("editaRegras")
-	public String editaRegras(RegrasInternas regra){
+	public String editaRegras(Regimento regra){
 		regraDao.editaRegra(regra);
 		return "redirect:balanosman";
 	}
