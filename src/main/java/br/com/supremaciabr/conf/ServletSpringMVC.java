@@ -1,13 +1,8 @@
 package br.com.supremaciabr.conf;
 
-import javax.servlet.ServletContext;
-import javax.servlet.ServletException;
-
-import org.springframework.core.env.AbstractEnvironment;
-import org.springframework.web.context.request.RequestContextListener;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-import br.com.supremaciabr.controller.index.HomeController;
+import br.com.supremaciabr.daos.RegrasDAO;
 import br.com.supremaciabr.daos.VideoDAO;
 
 public class ServletSpringMVC extends AbstractAnnotationConfigDispatcherServletInitializer{
@@ -15,7 +10,7 @@ public class ServletSpringMVC extends AbstractAnnotationConfigDispatcherServletI
 	@Override
 	protected Class<?>[] getRootConfigClasses() {
 		return new Class[] { AppWebConfiguration.class, JPAConfiguration.class,
-				JPAProductionConfiguration.class,VideoDAO.class,UtilitariaDatas.class};
+				JPAProductionConfiguration.class,VideoDAO.class,RegrasDAO.class,UtilitariaDatas.class};
 	}
 
 	@Override

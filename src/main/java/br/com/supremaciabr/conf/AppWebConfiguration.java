@@ -11,12 +11,14 @@ import br.com.supremaciabr.controller.adm.AdmController;
 import br.com.supremaciabr.controller.index.HomeController;
 import br.com.supremaciabr.controller.regras.RegrasController;
 import br.com.supremaciabr.controller.videos.VideosController;
+import br.com.supremaciabr.daos.RegrasDAO;
 import br.com.supremaciabr.daos.VideoDAO;
 
 
 @EnableWebMvc
 @ComponentScan(basePackageClasses={HomeController.class,
 									     VideoDAO.class,
+									     RegrasDAO.class,
 									     AdmController.class,
 									     RegrasController.class,
 									     VideosController.class,

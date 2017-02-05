@@ -1,19 +1,15 @@
 package br.com.supremaciabr.daos;
 
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
-
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
 import javax.swing.JOptionPane;
 import javax.transaction.Transactional;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
-
 import br.com.supremaciabr.conf.UtilitariaDatas;
 import br.com.supremaciabr.model.Videos;
 
