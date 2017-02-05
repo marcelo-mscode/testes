@@ -6,7 +6,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
-public class Regras {
+public class RegrasInternas {
 	
 	@Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)

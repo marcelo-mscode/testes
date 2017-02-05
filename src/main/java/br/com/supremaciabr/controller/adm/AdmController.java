@@ -7,7 +7,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import br.com.supremaciabr.daos.RegrasDAO;
 import br.com.supremaciabr.daos.VideoDAO;
-import br.com.supremaciabr.model.Regras;
+import br.com.supremaciabr.model.RegrasInternas;
 import br.com.supremaciabr.model.Videos;
 
 @Controller

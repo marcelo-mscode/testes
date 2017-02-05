@@ -10,7 +10,7 @@ import javax.transaction.Transactional;
 
 import org.springframework.stereotype.Repository;
 
-import br.com.supremaciabr.model.Regras;
+import br.com.supremaciabr.model.RegrasInternas;
 
 
 @Repository
@@ -21,23 +21,23 @@ public class RegrasDAO {
 	
 	
 	
-	public List<Regras> listaRegras(){
-		TypedQuery<Regras> regras = manager.createQuery("from Regras", Regras.class).setMaxResults(3);
+	public List<RegrasInternas> listaRegras(){
+		TypedQuery<RegrasInternas> regras = manager.createQuery("from RegrasInternas", RegrasInternas.class).setMaxResults(3);
 		return regras.getResultList();
 	}
 
-	public List<Regras> listaRegrasTodas(){
-		TypedQuery<Regras> regras = manager.createQuery("SELECT r from Regras r", Regras.class);
+	public List<RegrasInternas> listaRegrasTodas(){
+		TypedQuery<RegrasInternas> regras = manager.createQuery("SELECT r from RegrasInternas r", RegrasInternas.class);
 		return regras.getResultList();
 	}
 
-	public List<Regras> listaRegrasUltimos(){
-		TypedQuery<Regras> regras = manager.createQuery("SELECT r from Regras r where idRegras > 3", Regras.class);
+	public List<RegrasInternas> listaRegrasUltimos(){
+		TypedQuery<RegrasInternas> regras = manager.createQuery("SELECT r from RegrasInternas r where idRegras > 3", RegrasInternas.class);
 		return regras.getResultList();
 	}
 	
 	
-	public void criaRegra(Regras regra){
+	public void criaRegra(RegrasInternas regra){
 		try {
 			manager.persist(regra);
 		} catch (Exception e) {
@@ -45,7 +45,7 @@ public class RegrasDAO {
 		}
 	}
 
-	public void editaRegra(Regras regra){
+	public void editaRegra(RegrasInternas regra){
 		try {
 			manager.merge(regra);
 		} catch (Exception e) {
@@ -55,7 +55,7 @@ public class RegrasDAO {
 
 	public void removeRegra(Integer idRegra) {
 		try {
-			Regras regra = manager.find(Regras.class, idRegra);
+			RegrasInternas regra = manager.find(RegrasInternas.class, idRegra);
 			manager.remove(regra);
 		} catch (Exception e) {
 			

@@ -5,7 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import br.com.supremaciabr.daos.RegrasDAO;
-import br.com.supremaciabr.model.Regras;
+import br.com.supremaciabr.model.RegrasInternas;
 
 @Controller
 public class RegrasController {
@@ -13,13 +13,13 @@ public class RegrasController {
 	@Autowired RegrasDAO regraDao;
 	
 	@RequestMapping("cadastraRegras")
-	public String cadastraRegras(Regras regra){
+	public String cadastraRegras(RegrasInternas regra){
 		regraDao.criaRegra(regra);
 		return "redirect:balanosman";
 	}
 
 	@RequestMapping("editaRegras")
-	public String editaRegras(Regras regra){
+	public String editaRegras(RegrasInternas regra){
 		regraDao.editaRegra(regra);
 		return "redirect:balanosman";
 	}
