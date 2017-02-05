@@ -73,7 +73,7 @@
 		
 			
 		<div class="gtco-tab-content-wrap">
-			<div class="gtco-tab-content tab-content" data-tab-content="1">
+			<div class="gtco-tab-content tab-content active" data-tab-content="1">
 			<div class="col-md-4">
 				<h4>Inserir novo vídeo</h4>
 				<form class="form-control formVideo" action="cadastraVideo" method="post">
@@ -148,7 +148,7 @@
 		  </div>
 		  
 <!-- /*  Regras   */ -->		  
-		  <div class="gtco-tab-content tab-content active" data-tab-content="2">
+		  <div class="gtco-tab-content tab-content" data-tab-content="2">
 		  <div class="col-md-4">
 				<h4>Inserir Regras</h4>
 				<form class="form-control formRegras" action="cadastraRegras" method="post">
@@ -202,10 +202,61 @@
 			</div>
 		  </div>
 		  </div>
-		  
+<!-- /*  Qtd Membros   */ -->			  
 		  <div class="gtco-tab-content tab-content" data-tab-content="3">
+		  	<div class="col-md-4">
+				<h4>Membros</h4>
+				<form class="form-control formRegras" action="cadastraRegras" method="post">
+					<div class="col-md-12 col-sm-6">
+						<div class="form-group">
+							<label for="titulo" class="sr-only">Título</label>
+							<input name="tituloRegimento"  type="text" class="form-control" id="titulo" placeholder="Título">
+						</div>
+					</div>
+
+					<div class="col-md-12 col-sm-6">
+						<div class="form-group">
+							<label for="descricao" class="sr-only">Descrição</label>
+							<textarea name="subTituloDescricao"  class="form-control" id="descricao" placeholder="Descrição da Regra" rows="8"></textarea>
+						</div>
+					</div>
+
+					<div class="col-md-12 col-sm-6">
+						<button type="submit" class="btn btn-success btn-block">Cadastrar</button>
+					</div>
+				</form>
+			
+			</div>
+			
+			<div class="col-md-12" style="margin-top: 50px">
+				<h4>Editar Regras</h4>
+				<table class="table table-striped">
+					<tr>
+						<th>ID</th>
+						<th>Título</th>
+						<th>Descrição</th>
+						<th style="text-align: center;">Editar</th>
+						<th style="text-align: center;">Remover</th>
+					</tr>
+					<c:forEach items="${regras}" var="regras" >
+					<form class="form-control formVideo" action="editaRegras" method="post">
+					<input type="hidden" name="idRegimento" value="${regras.idRegimento}"  />
+						<tr>
+							<td><input name="idRegimento" type="text" class="form-control" id="titulo" value="${regras.idRegimento}"></td>
+							<td><input name="tituloRegimento" type="text" class="form-control" id="titulo" value="${regras.tituloRegimento}"></td>
+							
+							<td>
+								<textarea name="subTituloDescricao" class="form-control" id="descricao" rows="5">${regras.subTituloDescricao}</textarea>
+							</td>
+							<td><button type="submit" class="btn btn-success btn-block">Editar  Regra</button></td>
+							<td><a href="removeRegra?idRegra=${regras.idRegimento}" class="btn btn-Danger btn-block">X</a></td>
+						</tr>
+					</form>
+					</c:forEach>
+				</table>
+			</div>
+		  </div>
 		  
-		  	345
 		  
 		  </div>
 		  

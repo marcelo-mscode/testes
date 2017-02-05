@@ -14,7 +14,7 @@ public class Hierarquia {
 	private Integer idhierarquia;
 	private String titulo;
 	private String descricao;
-
+	
 	public Integer getIdhierarquia() {
 		return idhierarquia;
 	}
