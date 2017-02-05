@@ -177,6 +177,7 @@
 				<h4>Editar Regras</h4>
 				<table class="table table-striped">
 					<tr>
+						<th>ID</th>
 						<th>Título</th>
 						<th>Descrição</th>
 						<th style="text-align: center;">Editar</th>
@@ -186,7 +187,9 @@
 					<form class="form-control formVideo" action="editaRegras" method="post">
 					<input type="hidden" name="idRegimento" value="${regras.idRegimento}"  />
 						<tr>
+							<td><input name="idRegimento" type="text" class="form-control" id="titulo" value="${regras.idRegimento}"></td>
 							<td><input name="tituloRegimento" type="text" class="form-control" id="titulo" value="${regras.tituloRegimento}"></td>
+							
 							<td>
 								<textarea name="subTituloDescricao" class="form-control" id="descricao" rows="5">${regras.subTituloDescricao}</textarea>
 							</td>
