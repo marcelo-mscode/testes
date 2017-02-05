@@ -35,8 +35,8 @@ public class HomeController {
 	@RequestMapping("/regimeinterno")
 	public ModelAndView regimeinterno(){
 		ModelAndView MV = new ModelAndView("regime/regimeinterno");
-		MV.addObject("regras", regrasDAO.listaRegras());
-		MV.addObject("regras2", regrasDAO.listaRegrasUltimos());
+		/*MV.addObject("regras", regrasDAO.listaRegras());
+		MV.addObject("regras2", regrasDAO.listaRegrasUltimos());*/
 		return MV;
 	}
 	
