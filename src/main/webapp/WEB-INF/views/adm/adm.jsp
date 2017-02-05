@@ -55,12 +55,12 @@
 
 <header class="col-md-12 adminTopo">
 
-
-	
-	<div class="col-md-6">
-		
+<div class="col-md-12">
 		<h4>ADMINISTRADOR</h4>
+</div>
 	
+	<div class="col-md-4">
+		<h4>Inserir novo vídeo</h4>
 		<form class="form-control formVideo" action="cadastraVideo" method="post">
 			<div class="col-md-12 col-sm-6">
 				<div class="form-group">
@@ -101,6 +101,57 @@
 		</form>
 	
 	</div>
+	
+	<div class="col-md-4">
+		<h4>Editar vídeo</h4>
+		
+		
+	<c:forEach items="${ultimoVideo}" var="editaVideo" >
+		
+		<form class="form-control formVideo" action="editaVideo" method="post">
+		
+			<input type="hidden" name="idVideos" value="${editaVideo.idVideos}"  />
+		
+			<div class="col-md-12 col-sm-6">
+				<div class="form-group">
+					<label for="imagem" class="sr-only">Caminho da Imagem</label>
+					<input name="nomeImage"  type="text" class="form-control" id="imagem" value="${editaVideo.nomeImage}">
+				</div>
+			</div>
+	 		<div class="col-md-12 col-sm-6">
+				<div class="form-group">
+					<label for="name" class="sr-only">Data Postagem</label>
+					<input name="postadoEmTrans" type="date" class="form-control" id="postagem" placeholder="Data Postagem">
+				</div>
+			</div>
+		<div class="col-md-12 col-sm-6">
+				<div class="form-group">
+					<label for="name" class="sr-only">Título</label>
+					<input name="titulo" type="text" class="form-control" id="titulo" value="${editaVideo.titulo}">
+				</div>
+			</div>
+
+			<div class="col-md-12 col-sm-6">
+				<div class="form-group">
+					<label for="name" class="sr-only">Sub-Título</label>
+					<input name="subTitulo" type="text" class="form-control" id="subTitulo" value="${editaVideo.subTitulo}">
+				</div>
+			</div>
+
+			<div class="col-md-12 col-sm-6">
+				<div class="form-group">
+					<label for="name" class="sr-only">Url Vídeo</label>
+					<input name="url" type="text" class="form-control" id="url" value="${editaVideo.url}">
+				</div>
+			</div>
+
+			<div class="col-md-12 col-sm-6">
+				<button type="submit" class="btn btn-success btn-block">Enviar</button>
+			</div>
+		</form>
+	</c:forEach>
+	</div>
+	
 	
 	
 	

@@ -82,7 +82,7 @@
 				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
 					<h2>ÚLTIMOS VIDEOS DO NOSSO CANAL NO YOUTUBE</h2>
 					<p>Algumas vezes nossos membros gravam vídeos nas sessões e postam no nosso canal no youtube, veja alguns abaixo, aproveite e inscreva-se.</p>
-					<p><a href="https://www.youtube.com/channel/UCWIw5scPuM9G89C9_ZOx4Qg" class="btn btn-primary btn-outline" target="_blank">CANAL xSUPREMACIABRx NO YOUTUBE</a></p>
+					<p><a href="https://www.youtube.com/channel/UCWIw5scPuM9G89C9_ZOx4Qg" class="btn btn-primary btn-outline" target="_blank">xSUPREMACIABRx YOUTUBE</a></p>
 				</div>
 			</div>
 			
@@ -90,7 +90,7 @@
 			
 				<c:forEach items="${videos}" var="videos">
 					<div class="col-md-4">
-					<span>${videos.titulo}<br>${videos.subTitulo}<br>29/01/2017</span>
+					<span>${videos.titulo}<br>"${videos.subTitulo}"<br>29/01/2017</span>
 						<div class="gtco-video gtco-video-sm gtco-bg" style="background-image: url(${videos.nomeImage}); ">
 							<a href="${videos.url}" class="popup-vimeo"><i class="icon-video"></i></a>
 							<div class="overlay"></div>

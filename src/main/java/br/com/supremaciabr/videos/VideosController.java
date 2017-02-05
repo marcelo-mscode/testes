@@ -1,5 +1,7 @@
 package br.com.supremaciabr.videos;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,17 +20,21 @@ public class VideosController {
 	@RequestMapping("balanosman")
 	public ModelAndView balanosman(){
 		ModelAndView MV = new ModelAndView("adm/adm");
+		
+		MV.addObject("ultimoVideo", videoDAO.listaUltimoVideo());
+		
 		return MV;
 	}
 	
 	@RequestMapping("cadastraVideo")
 	public String cadastraVideo(Videos videos){
-		
 		videoDAO.salvaVideo(videos);
-		
-		System.out.println("Salvou !!!");
-		
-		
+		return "redirect:balanosman";
+	}
+
+	@RequestMapping("editaVideo")
+	public String editaVideo(Videos videos){
+		videoDAO.editaVideo(videos);
 		return "redirect:balanosman";
 	}
 	

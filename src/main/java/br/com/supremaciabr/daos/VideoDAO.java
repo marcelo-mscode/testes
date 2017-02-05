@@ -28,6 +28,11 @@ public class VideoDAO {
 		TypedQuery<Videos> videos = manager.createQuery("from Videos order by idVideos desc", Videos.class).setMaxResults(3);
 		return videos.getResultList();
 	}
+
+	public List<Videos> listaUltimoVideo(){
+		TypedQuery<Videos> videos = manager.createQuery("from Videos order by idVideos desc", Videos.class).setMaxResults(1);
+		return videos.getResultList();
+	}
 	
 	
 	public void salvaVideo(Videos videos){
@@ -35,7 +40,16 @@ public class VideoDAO {
 			videos.setPostadoEm(Calendar.getInstance().getTime());
 			manager.persist(videos);
 		} catch (Exception e) {
-			JOptionPane.showMessageDialog(null, "Deu erro: "+e);
+			JOptionPane.showMessageDialog(null, "Deu erro em salvar video: "+e);
+		}
+	}
+	
+	public void editaVideo(Videos videos){
+		try {
+			videos.setPostadoEm(Calendar.getInstance().getTime());
+			manager.merge(videos);
+		} catch (Exception e) {
+			JOptionPane.showMessageDialog(null, "Deu erro em Editar Video: "+e);
 		}
 	}
 	

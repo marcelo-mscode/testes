@@ -51,7 +51,7 @@ public class JPAConfiguration {
 	
 		
 	
-   @Bean	   
+  @Bean	   
    public DataSource dataSource() throws URISyntaxException{
       DriverManagerDataSource dataSource = new DriverManagerDataSource();
       dataSource.setDriverClassName("org.postgresql.Driver");
@@ -70,7 +70,7 @@ public class JPAConfiguration {
 		return properties;
 	}
 	
-	/*@Bean
+/*@Bean
 	@Profile("dev")
 	public DataSource dataSource(){
 	DriverManagerDataSource dataSource =
