@@ -187,8 +187,7 @@
 			</div>
 
 		</div>
-	</div> -->
-	
+	</div> 
 
 	<div id="gtco-subscribe">
 		<div class="gtco-container">
